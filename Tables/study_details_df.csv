@@ -998,7 +998,11 @@ Index,ID,FDA Regulated Drug?,FDA Regulated Device?,Responsible Party
 997,SYSUCC-011,No,No,Principal Investigator
 998,18432,No,No,Sponsor
 999,2020-KY-140,No,No,Principal Investigator
+<<<<<<< HEAD
 1000,2020-KY-125,No,No,Principal Investigator
+=======
+1000,18432,No,No,Sponsor
+>>>>>>> main
 1001,CAAE 42627521600005274,No,No,Sponsor
 1002,20201101.2,No,No,Sponsor
 1003,20-1866.cc,No,No,Sponsor
@@ -5001,4 +5005,14 @@ Index,ID,FDA Regulated Drug?,FDA Regulated Device?,Responsible Party
 5000,ReDA 13176,No,No,Sponsor-Investigator
 5001,64121317.4.1001.5330,Yes,No,Sponsor
 5002,3-2020-0038,No,No,Sponsor-Investigator
-5003,2018PS02,No,No,Principal Investigator
+5003,INST UNM 2104,No,No,Sponsor
+5004,2018-A00260-55,No,No,Sponsor
+5005,200013,Yes,No,Sponsor
+5006,P/2017/317,No,No,Sponsor
+5007,FP2CLI001,Yes,No,Sponsor
+5008,10000491,No,No,Sponsor
+5009,NCI-2022-02915,Yes,No,Sponsor
+5010,4-2017-0840,No,No,Sponsor
+5011,21953,Yes,No,Sponsor
+5012,J1940,No,No,Sponsor
+5013,2018PS02,No,No,Principal Investigator
