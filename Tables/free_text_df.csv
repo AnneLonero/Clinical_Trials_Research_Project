@@ -315,7 +315,6 @@ APHP211593,220,Diagnostic performances
 SOLTI-1911,530,Distant metastasis-free survival (DMFS) in the ROR-low cohort (responder cohort)
 IC 2018-08,405,Psychosocial Assessment in Hereditary Cancer questionnaire (PAHC).
 AHQU-2021006,59,Changes in arthralgia scores were measured by the BPI
-Breast Cancer,78,Serum cytokine levels
 FLA 18-057,35,"Mammogram findings before and after intervention: BI-RADS, Mammogram findings before and after intervention:LIBRA, Inflammatory markers before and after intervention: C-reactive protein, Inflammatory markers before and after intervention: Interleukin-6, Inflammatory markers before and after intervention: Insulin Growth Factor-1 (IGF-1), Inflammatory markers before and after intervention: Tumor Necrosis, Breast cancer risk calculation, Biometric measurements: weight, Biometric measurements: Height, Biometric measurements: Body mass index, Biometric measurements: Waist circumference."
 V2011201,0,Efficacy of sabizabulin in the treatment of estrogen receptor positive (ER+HER2) metastatic breast cancer (MBC)
 HERdi PREDICT,40,Compare HER2-HER3 dimer expression as detected by FLIM-FRET (% positive for HER2-HER3 dimer expression with FRET efficiency ≥8.56%) to HER2 over-expression (% positive for HER2 over-expression by IHC ± FISH) in patient-derived tumour samples.
@@ -1761,7 +1760,6 @@ SYM013,100,The success rate of scalp cooling in preventing chemotherapy-induced 
 SHR6390-III-302,426,Investigator-assessed PFS
 HR-BLTN-016,3000,"Progression Free Survival(PFS), Pathological Complete Response（pCR）Rate, Incidences of adverse events and toxicities"
 Pro2021000838,910,Change in Comprehensive Breast Cancer Follow-up Care
-RJBC2001,37,Ki67 changes from baseline to 2 weeks after the start of the neoadjuvant therapy
 CSPC-DMS-BC-K07,372,Pathological complete response (pCR) rate
 SGNLVA-002,211,"Confirmed objective response rate, Incidence of adverse events, Incidence of laboratory abnormalities, Incidence of dose-limiting toxicities"
 WO43919,400,Blinded Independent Central Review (BICR)-Assessed Progression Free Survival (PFS)
@@ -2388,7 +2386,6 @@ KutahyaMSUcancer,90,"Numeric Pain Rating Scale, Margolis Pain Diagram, Central S
 2021-A03166-35,32,Measurement of the muscular moment
 AAAS9859,36,"Number of patients with ablation, R2 value of ablated lesion depth, R2 value of ablated lesion width, R2 value of ablated lesion area"
 249571,133,Patient satisfaction with nurse communication during the Mini-AFTERc intervention
-001,40,"Post-intervention pain at 12 hours after surgery, Post-intervention pain at 48 hours after surgery, Post-intervention pain at first out-patient visit, Analgesic compsumption during hospital stay, Analgesic compsumption at home"
 2022/050,69,"EORTC QLQ-C30 (European Organization for Research and Treatment of Cancer Quality of Life Questionnaire), Functional Assessment of Cancer Therapy-Cognitive Function (FACT-Cog), Disabilities of the Arm, Shoulder, and Hand (DASH) Questionnaire"
 BR01/01/22,51,"Number of participant with treatment related toxicities (Phase Ib), Objective response rate (ORR) in Phase II"
 POLAR-01,100,"Progression Free Survival (PFS), Objective Response Rate (ORR)"
@@ -2731,7 +2728,6 @@ TNBC-NEO,0,pathologic complete response（pCR）
 RD19/125787,4000,Primary Outcome
 13/21,48,analgesia consumption
 NCI-2017-01960,24,Number of Participants With Incidence of Adverse Events (Dose Limiting Toxicities)
-2020-01,13,"Dropout rate in the Paleolithic lifestyle intervention group, Longitudinal body composition changes, Change in vitamin D levels"
 USB_22 Trial,94,"Chronic postoperative pain at 3 months, chronic postoperative pain intensity"
 YOUNGBC-12,208,"PFS, Adverse events"
 CSIIT-C25,59,RCB 0-1 points ratio
@@ -3218,7 +3214,6 @@ IRB00103558,28,Change in fatigue assessed by Multidimensional Fatigue Inventory 
 ICOnnectat-BC,193,"Change in Emotional Distress (HADS), Change in Post-traumatic Stress (PCL-5), Change in Post-traumatic Growth (PTGI), Change in Therapeutic alliance (WAI-P), Change in Quality of Life (EQ-5D-3L)"
 20-028,40,Rate of undetectable circulating tumor cfDNA- 6 Cycles
 C3441038,600,Incidence of adverse events categorized according to physical organ and disease/symptom
-2,44,"Evaluation of Pain;, Evaluation of Pain;, Evaluation of Pain;, Environmental Measurement;, Environmental Measurement;, Environmental Measurement;"
 STU-2022-0091,90,"Number of participants who complete single port nipple sparing mastectomy (SPrNSM), Incidence of perioperative complications"
 ICO-2021-36,30,Describe postoperative pain and functional results
 2021-0048-B,60,"Acute postoperative pain at rest, Quality of postoperative recovery (QoR 15)"
@@ -3441,7 +3436,6 @@ CTMS# 18-0135,60,Position measurement from Port films.
 2022LS100,80,"Activity and trip types, Activity length, Activity reoccurrence"
 STX-478-101,160,"Part 1.1 (Dose Escalation): Number of participants who experience at least 1 Dose Limiting Toxicity (DLT), Part 1.1 (Dose Escalation): Proportion of participants who experience at least 1 DLT during the first 28 days of treatment., Part 1.1 (Dose Escalation): Cmax of STX-478, Part 1.1 (Dose Escalation): AUC(0-inf) of STX-478, Part 1.1 (Dose Escalation): AUC(0-t) of STX-478, Part 1.1 (Dose Escalation): AUC(0-τ) of STX-478, Part 1.1 (Dose Escalation): Change from baseline in ctDNA levels., Part 1.1 (Dose Escalation): Changes in circulating markers of glucose metabolism as assessed by changes in circulating glycosylated hemoglobin [HbA1c], Part 1.1 (Dose Escalation): Changes in circulating markers of glucose metabolism as assessed by circulating fasting plasma glucose., Part 1.1 (Dose Escalation): Changes in circulating markers of glucose metabolism as assessed by circulating C-peptide., Part 1.1 (Dose Escalation): Objective response rate (ORR)., Part 1.1 (Dose Escalation): Incidence of TEAEs/SAEs ≥ grade 2., Part 1.1 (Dose Escalation): Frequency of TEAEs according to CTCAE v5.0 criteria., RP2D Selection (Parts 1.2-DS and 2.1): Cmax of STX-478, RP2D Selection (Parts 1.2-DS and 2.1): AUC(0-inf) of STX-478, RP2D Selection (Parts 1.2-DS and 2.1): AUC(0-t) of STX-478, RP2D Selection (Parts 1.2-DS and 2.1): AUC(0-τ) of STX-478, RP2D Selection (Parts 1.2-DS and 2.1): Change from baseline in ctDNA levels., RP2D Selection (Parts 1.2-DS and 2.1): Changes in circulating markers of glucose metabolism as assessed by changes in circulating glycosylated hemoglobin [HbA1c], RP2D Selection (Parts 1.2-DS and 2.1): Changes in circulating markers of glucose metabolism as assessed by circulating fasting plasma glucose., RP2D Selection (Parts 1.2-DS and 2.1): Changes in circulating markers of glucose metabolism as assessed by circulating C-peptide, Parts 1.2-DS and 2.1 (RP2D Selection): ORR, Parts 1.2-DS and 2.1 (RP2D Selection): Frequency counts and percentages of AEs based on MedDRA and CTCAE v5.0, Parts 1.2-DS and 2.1 (RP2D Selection): Proportion of participants with DLTs., Parts 1.2-DS and 2.1 (RP2D Selection): Change in ECOG performance status., Parts 1.2-DE, 1.3, and 2.2 (Dose Expansion): ORR defined as the percentage of participants with partial response or complete response based on RECIST 1.1."
 18-486,145,Progression Free Survival
-20-124,260,cognitive difficulties
 2019-02661,440,Rate of patients with change of primary treatment due to findings at additional CEM
 110181,60,Change in breast microbiota
 IRB-55153,15,Time to healing of implanted NACgraft
@@ -3588,7 +3582,6 @@ STUDY00143316,279,"Change in Pap Knowledge, Change in beliefs about the benefits
 2019P001434-1,539,Shared Decision Making Process Measure
 19-238,1500,Compare preoperative nerve blocks between a combination of nerve blocks and PVB alone to decrease postoperative opioid consumption
 FDRT-BC007,4052,Loco-regional recurrence (LRR)
-IRMA,360,"Rate of nipple-areola complex (NAC) or skin flap necrosis requiring specific treatment/surgery, Rate of infection requiring surgery, Grade of surgical complications"
 PMPS 1,200,Precise estimate of the local incidence and clinical/functional impact of PMPS
 2004-219-1119,113,Comparing of Preoperative MRI and Postoperative histopathologic results
 2000031319,200,"To measure Physical Function using Clinician Reported Outcomes (ClinRo) at baseline., Change in Patient Reported Outcomes Questionnaire: PRO-CTCAE, Change in Patient Reported Outcomes Questionnaire: PROMIS, Change in Patient Reported Outcomes Questionnaire: PRO ECOG, Change in Patient Reported Outcomes Questionnaire: EORTC Quality of Life (QLQ)-F17, Change in Patient Reported Outcomes Questionnaire: FACT-GP5, Change in Patient Reported Outcomes Questionnaire: Patient Global Impression-Change (PGI-C) and Patient Global Impression-Severity (PGI-S), Change in Physical Function using Performance Outcome 6-Minute Walk Test, Steps Data From Wearable Device, Heart Rate Data From Wearable Device, Patient Activity Data From Wearable Device"
@@ -4477,7 +4470,6 @@ TirolGESUND,156,"Change from baseline scores of DNA methylation biomarkers of ag
 R20-3896L,130,Postoperative pain
 69HCL19_0992,66,Difference of anxiety using the State-Trait Anxiety Inventory before oncologic procedure
 201805930,35,Pain score assessment using a visual analog scale-Immediately post-surgery
-12345,225,Aggregate Focus Quality Measure order rates at the first visit
 2018-0075,24,Feasibility: recruitment rates
 LOCAL/2020/DR-01,74,FDOPA-TEP
 IRB-300003680,21,"Postoperative Pain: Brief Pain Inventory- Short Form (BPI-SF), Postoperative Pain, Postoperative Pain: Brief Pain Inventory- Short Form (BPI-SF), Postoperative Pain: Brief Pain Inventory- Short Form (BPI-SF), Postoperative Pain: Brief Pain Inventory- Short Form (BPI-SF), Postoperative Pain: Brief Pain Inventory- Short Form (BPI-SF)"
@@ -4631,7 +4623,6 @@ CCT303-406-mST01,15,MTD: to determine the maximum tolerated dose of CCT303-406
 6B-20-1,10,"Correlation between multiparametric magnetic resonance imaging (mpMRI) radiomics and dynamic fluorine F 18 (18F)-FAMU (FMAU) positron emission tomography (PET) kinetic analysis parameters, Different pattern in radiomics mpMRI and FMAU PET kinetic analysis parameters"
 NRG-BN009,350,Time to Neurologic Death
 TCR2-21-01,115,"Phase 1 - Establish the recommended Phase 2 dose (RP2D) according to dose-limiting toxicity (DLT) of defined adverse events., Phase 2 - Overall Response Rate (ORR), Phase 2 - Disease Control Rate (DCR)"
-2018-01,5133,Biomarker Evaluation
 NCI-2020-05956,18,Incidence of dose limiting toxicities (DLTs)
 Pro9646,106,"Cutaneous (skin) blood flow (%) following administration of vasoactive substances, Brachial artery flow mediated dilation (FMD)"
 CA052-002,665,"Incidence of adverse events (AEs), Incidence of serious adverse events (SAEs), Incidence of AEs meeting protocol defined dose-limiting toxicity (DLT) criteria, Incidence of AEs leading to discontinuation, Incidence of AEs leading to death"
@@ -4710,7 +4701,6 @@ OM-GRPR-02,50,To determine the Recommended Phase 2 Dose (RP2D) of ²¹²Pb-DOTAM
 17493,100,"To Determine the Safety of Oral LOXO-292 in Pediatric Participants with Advanced Solid Tumors: Dose Limiting Toxicities (DLTs), To Determine the Safety of Oral LOXO-292 in Pediatric Participants with Primary CNS Tumors: DLTs, Overall Response Rate (ORR) Based on Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 per Independent Review Committee (IRC), ORR Based on Response Assessment in Neuro-Oncology (RANO) per IRC"
 LOXO-IDH-20002,200,Recommended Phase 2 Dose (RP2D)
 1623168,451,Duration of breastfeeding
-1,90,Incidence of complete removal of the breast lesion
 11190071,60,Global Longitudinal Strain (Left Ventricle)
 PACT-0101,21,"Incidence of adverse events as defined as DLTs, Number of participants with adverse events as a measure of safety and tolerability of NeoTCR-P1 or NeoTCR-P1 in combination with nivolumab, Maximum Tolerated Dose (MTD) of NeoTCR-P1, Feasibility of manufacturing NeoTCR-P1"
 PROICM 2021-05 SER,0,"Investigation of whether a flow cytometry blood-based MDSC quantification assay, does predict disease course in different cancer patients undergoing standard therapies including immunotherapy, chemotherapy, target therapies and surgery."
