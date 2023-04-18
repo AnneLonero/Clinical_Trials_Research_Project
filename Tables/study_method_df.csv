@@ -315,7 +315,6 @@ APHP211593,Observational,,Other,,Other,,Non-Probability Sample,
 SOLTI-1911,Interventional,"Experimental, Other","Drug, Drug, Drug",Parallel Assignment,,,,Phase 2
 IC 2018-08,Interventional,Experimental,"Genetic, Genetic, Behavioral",Single Group Assignment,,,,Not Applicable
 AHQU-2021006,Interventional,Experimental,Device,Single Group Assignment,,,,Not Applicable
-Breast Cancer,Observational,,Diagnostic Test,,Case-Control,,Non-Probability Sample,
 FLA 18-057,Observational,,Procedure,,Cohort,,Non-Probability Sample,
 V2011201,Interventional,"Experimental, Active Comparator","Drug, Drug",Parallel Assignment,,,,Phase 2
 HERdi PREDICT,Observational,,Other,,Cohort,,Non-Probability Sample,
@@ -1761,7 +1760,6 @@ SYM013,Interventional,Experimental,Device,Single Group Assignment,,,,Not Applica
 SHR6390-III-302,Interventional,"Experimental, Placebo Comparator","Drug, Drug, Drug",Parallel Assignment,,,,Phase 3
 HR-BLTN-016,Observational,,Other,,Cohort,2 Years,Non-Probability Sample,
 Pro2021000838,Interventional,"Active Comparator, No Intervention",Behavioral,Crossover Assignment,,,,Not Applicable
-RJBC2001,Interventional,Experimental,"Drug, Drug, Drug, Drug",Single Group Assignment,,,,Phase 2
 CSPC-DMS-BC-K07,Interventional,"Experimental, Active Comparator","Drug, Drug, Drug, Drug, Drug, Drug, Drug, Drug, Drug",Parallel Assignment,,,,Phase 3
 SGNLVA-002,Interventional,Experimental,"Drug, Drug",Single Group Assignment,,,,"Phase 1, Phase 2"
 WO43919,Interventional,"Experimental, Active Comparator","Drug, Drug, Drug",Parallel Assignment,,,,Phase 3
@@ -2388,7 +2386,6 @@ KutahyaMSUcancer,Observational,,,,Cohort,,Non-Probability Sample,
 2021-A03166-35,Interventional,Experimental,Procedure,Single Group Assignment,,,,Not Applicable
 AAAS9859,Interventional,Experimental,Procedure,Single Group Assignment,,,,Not Applicable
 249571,Interventional,"Experimental, No Intervention",Behavioral,Parallel Assignment,,,,Not Applicable
-001,Interventional,"Experimental, No Intervention",Other,Parallel Assignment,,,,Not Applicable
 2022/050,Interventional,"Experimental, Experimental, No Intervention",Other,Parallel Assignment,,,,Not Applicable
 BR01/01/22,Interventional,"Experimental, Experimental","Drug, Drug",Sequential Assignment,,,,"Phase 1, Phase 2"
 POLAR-01,Observational,,Drug,,Cohort,,Non-Probability Sample,
@@ -2731,7 +2728,6 @@ TNBC-NEO,Interventional,"Experimental, Active Comparator","Drug, Drug",Parallel 
 RD19/125787,Observational,,Other,,Cohort,,Probability Sample,
 13/21,Interventional,"Active Comparator, Sham Comparator","Procedure, Other",Parallel Assignment,,,,Not Applicable
 NCI-2017-01960,Interventional,Experimental,"Drug, Other",Sequential Assignment,,,,Phase 1
-2020-01,Interventional,"Experimental, Other","Radiation, Other",Parallel Assignment,,,,Not Applicable
 USB_22 Trial,Interventional,"Experimental, Experimental","Procedure, Procedure",Parallel Assignment,,,,Not Applicable
 YOUNGBC-12,Observational,,,,Cohort,,Non-Probability Sample,
 CSIIT-C25,Interventional,Experimental,Combination Product,Single Group Assignment,,,,Phase 2
@@ -3218,7 +3214,6 @@ IRB00103558,Interventional,"Experimental, Active Comparator","Other, Behavioral"
 ICOnnectat-BC,Interventional,"Experimental, Experimental","Behavioral, Behavioral",Parallel Assignment,,,,Not Applicable
 20-028,Interventional,Experimental,"Drug, Drug",Single Group Assignment,,,,Phase 2
 C3441038,Observational,,Drug,,Case-Only,,Non-Probability Sample,
-2,Interventional,"Experimental, Other","Device, Other",Parallel Assignment,,,,Not Applicable
 STU-2022-0091,Interventional,Experimental,Device,Single Group Assignment,,,,Not Applicable
 ICO-2021-36,Observational,,Procedure,,Cohort,,Non-Probability Sample,
 2021-0048-B,Interventional,"Placebo Comparator, Experimental","Procedure, Procedure",Parallel Assignment,,,,Not Applicable
@@ -3441,7 +3436,6 @@ CTMS# 18-0135,Interventional,Experimental,"Other, Other",Single Group Assignment
 2022LS100,Observational,,,,Cohort,,Non-Probability Sample,
 STX-478-101,Interventional,"Experimental, Experimental, Experimental, Experimental, Experimental, Experimental","Drug, Drug",Sequential Assignment,,,,"Phase 1, Phase 2"
 18-486,Interventional,"Active Comparator, Experimental","Radiation, Drug",Parallel Assignment,,,,Phase 2
-20-124,Interventional,"Experimental, Placebo Comparator, Experimental","Procedure, Procedure, Other, Other",Parallel Assignment,,,,Phase 2
 2019-02661,Interventional,"Experimental, No Intervention",Diagnostic Test,Parallel Assignment,,,,Not Applicable
 110181,Interventional,"Experimental, Placebo Comparator","Dietary Supplement, Dietary Supplement",Parallel Assignment,,,,Not Applicable
 IRB-55153,Interventional,Experimental,Device,Single Group Assignment,,,,Not Applicable
@@ -3588,7 +3582,6 @@ STUDY00143316,Interventional,"No Intervention, Experimental",Behavioral,Parallel
 2019P001434-1,Observational,,,,Other,,Non-Probability Sample,
 19-238,Interventional,"Experimental, Experimental, Experimental","Drug, Drug, Drug",Parallel Assignment,,,,Phase 4
 FDRT-BC007,Interventional,"Experimental, Active Comparator","Radiation, Radiation",Parallel Assignment,,,,Not Applicable
-IRMA,Observational,,Other,,Cohort,,Non-Probability Sample,
 PMPS 1,Observational,,,,Case-Control,,Probability Sample,
 2004-219-1119,Interventional,Experimental,Diagnostic Test,Single Group Assignment,,,,Not Applicable
 2000031319,Observational,,"Other, Other, Device, Other, Other",,Cohort,,Probability Sample,
@@ -4477,7 +4470,6 @@ TirolGESUND,Interventional,"Experimental, Experimental","Behavioral, Behavioral,
 R20-3896L,Interventional,"Experimental, Sham Comparator","Procedure, Procedure",Parallel Assignment,,,,Not Applicable
 69HCL19_0992,Interventional,Other,Behavioral,Single Group Assignment,,,,Not Applicable
 201805930,Interventional,"Active Comparator, Experimental","Procedure, Procedure",Parallel Assignment,,,,Not Applicable
-12345,Interventional,"Placebo Comparator, Experimental, Experimental","Behavioral, Behavioral, Behavioral",Parallel Assignment,,,,Not Applicable
 2018-0075,Interventional,"Experimental, No Intervention",Drug,Parallel Assignment,,,,Phase 2
 LOCAL/2020/DR-01,Observational,,Diagnostic Test,,Cohort,,Probability Sample,
 IRB-300003680,Interventional,"Experimental, Placebo Comparator","Drug, Other",Parallel Assignment,,,,Early Phase 1
@@ -4631,7 +4623,6 @@ CCT303-406-mST01,Interventional,Experimental,Biological,Single Group Assignment,
 6B-20-1,Interventional,Experimental,"Procedure, Drug, Procedure, Procedure",Single Group Assignment,,,,Early Phase 1
 NRG-BN009,Interventional,"Experimental, Active Comparator","Drug, Other, Other, Radiation, Radiation",Parallel Assignment,,,,Phase 3
 TCR2-21-01,Interventional,Experimental,"Biological, Drug, Drug",Single Group Assignment,,,,"Phase 1, Phase 2"
-2018-01,Observational,,Other,,Cohort,,Non-Probability Sample,
 NCI-2020-05956,Interventional,Experimental,"Procedure, Drug, Procedure, Procedure, Biological",Single Group Assignment,,,,Phase 1
 Pro9646,Observational,,"Other, Other, Other, Other",,Case-Control,,Non-Probability Sample,
 CA052-002,Interventional,"Experimental, Experimental, Experimental, Experimental, Experimental","Drug, Drug, Drug",Sequential Assignment,,,,"Phase 1, Phase 2"
@@ -4710,7 +4701,6 @@ OM-GRPR-02,Interventional,Experimental,Drug,Single Group Assignment,,,,Phase 1
 17493,Interventional,Experimental,Drug,Single Group Assignment,,,,"Phase 1, Phase 2"
 LOXO-IDH-20002,Interventional,"Experimental, Experimental","Drug, Drug, Drug, Drug",Single Group Assignment,,,,Phase 1
 1623168,Interventional,"Active Comparator, Active Comparator","Behavioral, Behavioral",Parallel Assignment,,,,Not Applicable
-1,Interventional,"Experimental, Active Comparator","Procedure, Procedure",Parallel Assignment,,,,Not Applicable
 11190071,Observational,,,,Cohort,3 Months,Non-Probability Sample,
 PACT-0101,Interventional,"Experimental, Experimental, Experimental","Biological, Biological, Biological",Sequential Assignment,,,,Phase 1
 PROICM 2021-05 SER,Interventional,Experimental,Diagnostic Test,Single Group Assignment,,,,Not Applicable
