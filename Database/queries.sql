@@ -1,17 +1,3 @@
--- Drop table if necessary
-DROP TABLE Registration_Info CASCADE;
-DROP TABLE Participant_Eligibility CASCADE;
-DROP TABLE Study_Detail CASCADE;
-DROP TABLE Study_Method CASCADE;
-DROP TABLE Text_Analysis CASCADE;
-
--- Display Tables after import CSV files
-SELECT * FROM Registration_Info;
-SELECT * FROM Participant_Eligibility;
-SELECT * FROM Study_Detail;
-SELECT * FROM Study_Method;
-SELECT * FROM Text_Analysis;
-
 -- Queries
 
 -- Count by status
@@ -35,10 +21,14 @@ SELECT ri."ID",
 	sm.intervention_type,
 	sm.interventional_type_model,
 	sm.phase
+INTO interventional_study	
 FROM Registration_Info as ri
 LEFT JOIN Study_Method as sm
 ON ri."ID" = sm."ID"
 WHERE ri.study_type = 'Interventional';
+
+-- Display Interventional Study table
+SELECT * FROM interventional_study;
 
 -- Tables of Observational Study ONLY
 SELECT ri."ID",
@@ -48,10 +38,51 @@ SELECT ri."ID",
 	sm.observational_study_model,
 	sm.target_duration,
 	sm.sampling_method
+INTO observational_study	
 FROM Registration_Info as ri
 LEFT JOIN Study_Method as sm
-ON ri."ID" = sm."ID"
+ON ri."ID" = sm."ID" 
 WHERE ri.study_type = 'Observational';
+
+-- Display Observational Study table
+SELECT *  FROM observational_study;
+
+-- FDA Regulated Drug/Device for Interventional Study
+SELECT ivs."ID",
+	ivs.title,
+	ivs.status,
+	ivs.study_type,
+	ivs.arm_group_type,
+	ivs.intervention_type,
+	ivs.interventional_type_model,
+	ivs.phase,
+	sd.fda_regulated_drug,
+	sd.fda_regulated_device
+INTO ivs_study_fda	
+FROM interventional_study as ivs	
+LEFT JOIN Study_Detail as sd
+ON ivs."ID" = sd."ID";
+
+-- Display ivs_study_fda table
+SELECT * FROM ivs_study_fda;
+
+-- FDA Regulated Drug/Device for Observational Study
+SELECT obs."ID",
+	obs.title,
+	obs.status,
+	obs.study_type,
+	obs.observational_study_model,
+	obs.target_duration,
+	obs.sampling_method,
+	sd.fda_regulated_drug,
+	sd.fda_regulated_device
+INTO obs_study_fda	
+FROM observational_study as obs	
+LEFT JOIN Study_Detail as sd
+ON obs."ID" = sd."ID";
+
+-- Display obs_study_fda table
+SELECT * FROM obs_study_fda;
 
 -- Count by FDA Regulated Drug
 SELECT COUNT ("ID"), fda_regulated_drug
