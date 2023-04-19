@@ -4,6 +4,7 @@ CREATE TABLE Registration_Info (
 	Title VARCHAR,
 	Start_Date VARCHAR,
 	Completion_Date VARCHAR,
+	Actual_Duration VARCHAR,
 	Status VARCHAR,
 	Study_Type VARCHAR,
 	PRIMARY KEY ("ID")
