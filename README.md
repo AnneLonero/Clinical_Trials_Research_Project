@@ -9,11 +9,9 @@ While the purview of this project is restricted to clinical trials about breast 
 ## Research Outline
 1. Building the database<br>
 The data for this project was pulled using the [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home). Before cleaning the data there were 13,821 results for breast cancer trials. In order to organize the data-cleaning stage search fields are separated into tables made up primarily of categorical variables. These are: registration information, participant eligibility, study method, and study details. A fifth table made up of free-text response fields was pulled to conduct text analysis later in the machine learning phase. By running five discrete API calls, the data was segmented into the five tables seen in the image below. <br>
-
 ![field_tables](QuickDBD-schema.png)
-<br>
 
-The Unique Protocol Identifiction Number(OrgStudyId) is the primary key for each table. <br>
+<br>The Unique Protocol Identifiction Number(OrgStudyId) is the primary key for each table. <br>
 
 2. Cleaning the data <br>
 Data collected as json files from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home) were converted into multiple DataFrames for data cleaning. Data in each of the dataframes were first converted as string, then each values were run through ```for``` loops to remove any unnecessary characters through reg expression. All columns were then renamed. Because some trials had multiple rows, duplicate rows based on the trial ID have beeen removed using ```drop_duplicates(subset=[ID], keep='first')```.
