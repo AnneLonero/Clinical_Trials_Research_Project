@@ -1,56 +1,52 @@
 -- Creating tables for Clincal_TrialsDB
 CREATE TABLE Registration_Info (
-	OrgStudyId VARCHAR NOT NULL,
-	BriefTitle VARCHAR,
-	StartDate DATE,
-	CompletionDate DATE,
-	OverallStatus VARCHAR,
-	StudyType VARCHAR,
-	PRIMARY KEY (OrgStudyId),
-	UNIQUE (OrgStudyId)
+	"ID" VARCHAR NOT NULL,
+	Title VARCHAR,
+	Start_Date VARCHAR,
+	Completion_Date VARCHAR,
+	Actual_Duration VARCHAR,
+	Status VARCHAR,
+	Study_Type VARCHAR,
+	PRIMARY KEY ("ID")
 );
 
 CREATE TABLE Participant_Eligibility (
-	OrgStudyId VARCHAR NOT NULL,
+	"ID" VARCHAR NOT NULL,
 	Gender VARCHAR,
-	MinimumAge INT,
-	MaximumAge INT,
-	HealthyVolunteers VARCHAR,
-	PRIMARY KEY (OrgStudyId),
-	FOREIGN KEY (OrgStudyId) REFERENCES Registration_Info (OrgStudyId)
+	Minimum_Age VARCHAR,
+	Healthy_Volunteers VARCHAR,
+	PRIMARY KEY ("ID"),
+	FOREIGN KEY ("ID") REFERENCES Registration_Info ("ID")
 );
 
 CREATE TABLE Study_Detail (
-	OrgStudyId VARCHAR NOT NULL,
-	IsFDARegulatedDrug VARCHAR,
-	IsFDARegulatedDevice VARCHAR,
-	IsUnapprovedDevice VARCHAR,
-	ResponsiblePartyType VARCHAR,
-	PRIMARY KEY (OrgStudyId),
-	FOREIGN KEY (OrgStudyId) REFERENCES Participant_Eligibility (OrgStudyId)
+	"ID" VARCHAR NOT NULL,
+	FDA_Regulated_Drug VARCHAR,
+	FDA_Regulated_Device VARCHAR,
+	Responsible_Party VARCHAR,
+	PRIMARY KEY ("ID"),
+	FOREIGN KEY ("ID") REFERENCES Participant_Eligibility ("ID")
 );
 
 CREATE TABLE Study_Method (
-	OrgStudyId VARCHAR NOT NULL,
-	StudyType VARCHAR,
-	ArmGroupType VARCHAR,
-	InterventionType VARCHAR,
-	DesignInterventionalModel VARCHAR,
-	DesignObservationalModel VARCHAR,
-	TargetDuration VARCHAR,
-	SamplingMethod VARCHAR,
+	"ID" VARCHAR NOT NULL,
+	Study_Type VARCHAR,
+	Arm_Group_Type VARCHAR,
+	Intervention_Type VARCHAR,
+	Interventional_Type_Model VARCHAR,
+	Observational_Study_Model VARCHAR,
+	Target_Duration VARCHAR,
+	Sampling_Method VARCHAR,
 	Phase VARCHAR,
-	PRIMARY KEY (OrgStudyId),
-	FOREIGN KEY (OrgStudyId) REFERENCES Registration_Info (OrgStudyId),
-	FOREIGN KEY (StudyType) REFERENCES Registration_Info (OrgStudyId)
+	PRIMARY KEY ("ID"),
+	FOREIGN KEY ("ID") REFERENCES Registration_Info ("ID"),
+	FOREIGN KEY ("ID") REFERENCES Registration_Info ("ID")
 );
 
 CREATE TABLE Text_Analysis (
-	OrgStudyId VARCHAR,
-	WhyStopped VARCHAR,
-	EnrollmentCount VARCHAR,
-	PrimaryOutComeMeasure VARCHAR,
-	FlowDropWithdrawType VARCHAR,
-	PRIMARY KEY (OrgStudyId),
-	FOREIGN KEY (OrgStudyId) REFERENCES Study_Detail (OrgStudyId)
+	"ID" VARCHAR,
+	Enrollment_Count VARCHAR,
+	Primary_OutCome_Measure VARCHAR,
+	PRIMARY KEY ("ID"),
+	FOREIGN KEY ("ID") REFERENCES Study_Detail ("ID")
 );
