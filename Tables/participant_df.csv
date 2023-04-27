@@ -129,8 +129,8 @@ GFY202001,Female,18 ,No
 IRB # 21-0026,Female,18 ,No
 IRB00002991,All,18 ,No
 17-398,All,18 ,No
-LCCC 1954,All,21 ,No
 ESR-17-12934,Female,18 ,No
+LCCC 1954,All,21 ,No
 69HCL22_0613,Female,18 ,No
 LCCC2213,All,18 ,No
 IC 2018-01,Female,18 ,No
@@ -141,8 +141,8 @@ PekingUMCH-FAPI-BC-2,Female,18 ,No
 FMASUMD232/2021,Female,18 ,No
 Breast immune checkpoint,Female,18 ,nan
 IRB00283392,Female,65 ,Accepts Healthy Volunteers
-180034,All,18 ,No
 IRB17-0721,All,18 ,No
+180034,All,18 ,No
 BCL IDE,Female,18 ,No
 REO 027,Female,18 ,No
 CentroHLO_EFBreastCancer,Female,18 ,No
@@ -197,8 +197,8 @@ CCR5348,All,18 ,No
 STUDY00011606,Female,40 ,No
 03/21,Female,18 ,No
 AHQU-2021007,Female,18 ,No
-2019-05-157,All,18 ,No
 D8530C00003,Female,18 ,No
+2019-05-157,All,18 ,No
 200056,All,18 ,No
 182-20-CA,Female,18 ,No
 Shengjing-LCG008,Female,18 ,No
@@ -276,8 +276,8 @@ SDS-HER-01-2018,Female,18 ,No
 APHP211502,Female,18 ,No
 ISTMET-BHWGI2022-1,Female,18 ,No
 SCHBCC-N024,Female,18 ,No
-Cpetptmrbc,Female,nan,No
 4817,Female,18 ,No
+Cpetptmrbc,Female,nan,No
 EEBC,Female,65 ,No
 symptom of breast cancer,Female,20 ,No
 IEO 0761/,All,18 ,No
@@ -313,10 +313,11 @@ BR02/03/21,Female,21 ,No
 REaCT-HER TIME,All,18 ,No
 01-2021,All,18 ,No
 D9673R00011,All,nan,No
-APHP211593,Female,18 ,No
 SOLTI-1911,All,18 ,No
+APHP211593,Female,18 ,No
 IC 2018-08,Female,18 ,No
 AHQU-2021006,Female,18 ,No
+2540,Female,18 ,nan
 FLA 18-057,Female,40 ,No
 V2011201,All,18 ,No
 HERdi PREDICT,All,18 ,No
@@ -338,8 +339,8 @@ FMASU R61/2020,Female,nan,No
 19-509,All,18 ,No
 19-277,Female,18 ,No
 UW 20-064,All,18 ,No
-20-1039,All,18 ,No
 UC-0105/1701,All,18 ,No
+20-1039,All,18 ,No
 BRAR1,Female,18 ,nan
 18-1025,All,18 ,No
 IRB16-0396,Female,40 ,Accepts Healthy Volunteers
@@ -358,8 +359,8 @@ Breast Audit,All,18 ,No
 STU-2018-0370,Female,18 ,No
 MRI in breast cancer,Female,18 ,nan
 Prix Ruban Rose/2021/FF-01,Female,18 ,No
-Pyrotinib neoadjuvant,Female,20 ,No
 FUSCC-OMIT,Female,18 ,No
+Pyrotinib neoadjuvant,Female,20 ,No
 SMC 2021-02-102,Female,20 ,No
 BSMMU/2019/8874,Female,30 ,No
 20210601,Female,18 ,Accepts Healthy Volunteers
@@ -435,8 +436,8 @@ PROICM 2019-11 PRA,Female,18 ,No
 201819010.4,Female,18 ,No
 2018NTLS176,Female,18 ,No
 SPHIC-TR-BCa2022-01,Female,18 ,No
-SRMBCNabP2022,Female,18 ,No
 C3441020,All,18 ,No
+SRMBCNabP2022,Female,18 ,No
 18ON009,Female,18 ,No
 FDRT-BC009,Female,18 ,No
 18-223,All,18 ,No
@@ -492,8 +493,8 @@ GNC-035-103,All,18 ,No
 DS8201-A-U301,All,18 ,No
 2018-09-007A,Female,20 ,No
 M18DMB,Female,18 ,No
-R148/2021,Female,18 ,No
 Microbiome_BC&PnC,All,18 ,No
+R148/2021,Female,18 ,No
 ZNJC201935,Female,18 ,No
 SCHBCC0N026,Female,18 ,No
 MUKDEN-09,Female,18 ,No
@@ -616,11 +617,11 @@ CASE13119,Female,18 ,No
 ZX-2021-FES-ESTROTIMP-4,Female,18 ,No
 2017-0499,All,18 ,No
 IIT-UM2018001,Female,18 ,No
-UPCC 17120,Female,18 ,No
 Shengjing_002,Female,18 ,No
+UPCC 17120,Female,18 ,No
 IRB-57723,All,18 ,No
-3764,All,18 ,No
 D8530C00006,Female,20 ,No
+3764,All,18 ,No
 115858,Female,50 ,No
 CCH-IRB-190414-R,Female,20 ,No
 UCCS20110,All,65 ,No
@@ -652,8 +653,8 @@ DKFZ-2019-008,All,18 ,No
 SHPD005,Female,18 ,No
 dAGEs,Female,19 ,Accepts Healthy Volunteers
 20-124,Female,18 ,No
-NIR-THERMA-02,Female,18 ,Accepts Healthy Volunteers
 LaPemERLA,All,21 ,No
+NIR-THERMA-02,Female,18 ,Accepts Healthy Volunteers
 E7389-M082-602,All,nan,No
 Pro00020138,All,18 ,No
 18-394,All,18 ,No
@@ -664,6 +665,7 @@ REO 026-1,Female,18 ,No
 STUDY00001233,All,21 ,Accepts Healthy Volunteers
 2019.429,Female,18 ,No
 CP7-005,Female,18 ,No
+LY2023-054-B,Female,18 ,No
 INCASE0518,Female,18 ,No
 2021/193780(REK),Female,18 ,No
 123123,Female,18 ,No
@@ -689,8 +691,8 @@ R20-003,Female,50 ,No
 MedOPP319,Female,18 ,No
 WO39391,All,18 ,No
 NCC1867,Female,18 ,No
-2-102-21,Female,18 ,Accepts Healthy Volunteers
 20-157,All,18 ,No
+2-102-21,Female,18 ,Accepts Healthy Volunteers
 HunanCH-BC-001,Female,18 ,Accepts Healthy Volunteers
 2021.693,Female,18 ,No
 GENEXAN,Female,18 ,No
@@ -780,14 +782,14 @@ SNF3,Female,18 ,No
 1780,Female,25 ,No
 2020 - 176,Female,18 ,No
 HR-TNBC-HN100,Female,18 ,No
-YANWQ002,Female,18 ,No
 2018-68-1461,Female,18 ,No
+YANWQ002,Female,18 ,No
 STU00206180,Female,18 ,No
 MR-01,Female,18 ,No
 2019-09-09,All,18 ,Accepts Healthy Volunteers
 UBRS20013,Female,18 ,No
-HR-BLTN-014,Female,18 ,No
 SPI-POZ-101,Female,18 ,No
+HR-BLTN-014,Female,18 ,No
 EC/TMC/108/17,Female,18 ,No
 SGRT-BC,Female,18 ,No
 CMUH108-REC3-090,All,20 ,No
@@ -808,8 +810,8 @@ MUKDEN 07,Female,18 ,No
 OstacoliMIND&BC,Female,18 ,No
 NCC3286,Female,18 ,No
 HR-BLTN-010,Female,18 ,No
-CMUH106-REC3-137,All,20 ,No
 GS-US-595-6184,All,18 ,No
+CMUH106-REC3-137,All,20 ,No
 2010134480,Female,18 ,No
 DS8201-A-U303,All,18 ,No
 H18-02581,Female,18 ,No
@@ -818,15 +820,15 @@ SMX 22-002,All,18 ,No
 K171005J,Female,18 ,No
 9745,Female,18 ,Accepts Healthy Volunteers
 J1836,All,18 ,No
-X-XJTU1AFLSY-93,Female,18 ,No
 2019/2452,Female,21 ,No
+X-XJTU1AFLSY-93,Female,18 ,No
 20-104,All,18 ,Accepts Healthy Volunteers
 SCHBCC-N030,Female,18 ,No
 D967JC00001,All,18 ,No
 STUDY00022698,Female,40 ,Accepts Healthy Volunteers
 CLEE011AUS64,Female,18 ,No
-SCAN-B-rec,All,18 ,No
 NCC1888,Female,18 ,No
+SCAN-B-rec,All,18 ,No
 LMengmeng,Female,18 ,No
 XZP-3287-3002,Female,18 ,No
 R21-072,Female,18 ,No
@@ -835,8 +837,8 @@ SCHBCC-N025,Female,18 ,No
 ERC/2020/10/11 (26/10/2020),Female,30 ,Accepts Healthy Volunteers
 19-055,All,18 ,No
 SLNB-ACP,Female,18 ,No
-2019/1318,Female,28 ,No
 AI-BMRI,Female,nan,No
+2019/1318,Female,28 ,No
 20F.259,Female,21 ,No
 BC-P29,Female,18 ,No
 Smart,Female,18 ,No
@@ -980,9 +982,9 @@ NCC2021291,Female,nan,No
 CNIL-2033408,Female,18 ,No
 22-5307,All,18 ,No
 CEP0431/2018 arm 2,Female,30 ,No
-REG-028-2021,Female,18 ,No
 MA-BC-II-035,Female,18 ,No
 F2017000 (UAB 17112),Female,18 ,No
+REG-028-2021,Female,18 ,No
 22040,Female,65 ,No
 CTMS 17-0037,All,18 ,No
 D0816R00025,Female,18 ,No
@@ -1003,8 +1005,8 @@ SYSUCC-011,Female,18 ,No
 2020-KY-140,Female,18 ,No
 2020-KY-125,Female,18 ,No
 CAAE 42627521600005274,Female,18 ,No
-20201101.2,Female,18 ,No
 20-1866.cc,Female,39 ,No
+20201101.2,Female,18 ,No
 SYSUCC-008,Female,18 ,No
 S64752,Female,18 ,nan
 SURVIVE,All,18 ,No
@@ -1048,8 +1050,8 @@ KOTK/2022/12550,Female,18 ,No
 SCHBCC-N029,Female,18 ,No
 PUMCH-MIRC213,Female,nan,No
 A5481145,Female,18 ,No
-Concordance,All,18 ,No
 TMS01190510,Female,18 ,No
+Concordance,All,18 ,No
 1752/20,Female,18 ,No
 IMAP-CM,Female,nan,No
 SRB_201808_163,Female,18 ,No
@@ -1084,8 +1086,8 @@ AMCI-001,Female,18 ,No
 Fukui-2019-1,Female,18 ,No
 PRO00028925,Female,18 ,No
 K160913J,Female,18 ,No
-N-20180090,Female,18 ,No
 Genetic study and TDM,Female,20 ,nan
+N-20180090,Female,18 ,No
 FDRT-BC016,Female,18 ,No
 RF-2016-02363686,Female,45 ,Accepts Healthy Volunteers
 UPCC 10117,All,18 ,No
@@ -1118,10 +1120,10 @@ LCCC2241,All,18 ,nan
 2020-0708,Female,18 ,No
 NCC2493,Female,18 ,No
 20-347,All,18 ,No
-ICO 13-001,Female,18 ,No
 2018-A01128-47,Female,18 ,No
-LRP/PegGCSF/2016/004,Female,18 ,No
+ICO 13-001,Female,18 ,No
 SCBCG-006,All,18 ,No
+LRP/PegGCSF/2016/004,Female,18 ,No
 GRACE,Female,18 ,No
 21-600,Female,18 ,No
 114,Female,18 ,No
@@ -1239,8 +1241,8 @@ ML39208,Female,18 ,No
 A231701CD,Female,18 ,No
 FDRT-BC017,Female,18 ,No
 AC699-001,All,18 ,No
-CTRIAL-IE 17-13,Female,18 ,No
 2020-495,Female,18 ,No
+CTRIAL-IE 17-13,Female,18 ,No
 00005038,Female,40 ,Accepts Healthy Volunteers
 H-43432,All,18 ,No
 2020-010,Female,18 ,No
@@ -1250,8 +1252,8 @@ ACT16105,All,18 ,No
 OSU-22013,Female,30 ,Accepts Healthy Volunteers
 I-3364822,All,18 ,No
 ICO-N-2019-04,Female,18 ,No
-20140299,All,18 ,No
 2007-206-1145,Female,25 ,No
+20140299,All,18 ,No
 2019.629,Female,nan,Accepts Healthy Volunteers
 CS003-BC,Female,18 ,No
 2020-005722-28,All,18 ,No
@@ -1272,8 +1274,8 @@ UW17107,Female,18 ,No
 NL63209 041 18,Female,50 ,No
 KCSG BR19-15,All,nan,No
 2020-AHL-001,All,18 ,No
-202201100,Female,18 ,No
 SAMuhammad,Female,18 ,No
+202201100,Female,18 ,No
 2019-A02195-52,Female,18 ,No
 ShantouCH02,Female,18 ,No
 PekingUPH10B003,Female,18 ,No
@@ -1288,8 +1290,8 @@ ABLE02,Female,18 ,No
 MCC-21-BRE-54,Female,18 ,No
 CLEE011A3201C,Female,18 ,No
 2/108/7,Female,18 ,No
-HUM00140468,Female,18 ,No
 EOC202A1101,Female,18 ,No
+HUM00140468,Female,18 ,No
 18-2562.cc,Female,nan,No
 19-586,Female,18 ,No
 2014CB543202-02,All,18 ,No
@@ -1303,8 +1305,8 @@ NCC2129,Female,18 ,No
 001,Female,18 ,No
 SYSU-CSCO-2020,Female,18 ,No
 IRB18-0970,Female,25 ,Accepts Healthy Volunteers
-Shengjing-LCG004,Female,18 ,No
 2019-09-023,Female,20 ,No
+Shengjing-LCG004,Female,18 ,No
 A5481093,All,0 ,No
 MedOPP168,All,18 ,No
 LUN_DBT_121,Female,22 ,Accepts Healthy Volunteers
@@ -1330,8 +1332,8 @@ EC/2017/0200,Female,18 ,No
 200277,All,18 ,No
 CFT / sp123,Female,18 ,No
 2021-1201,All,18 ,No
-99mTc- RM26,All,18 ,No
 FDRT-BC012,All,nan,No
+99mTc- RM26,All,18 ,No
 2103254164,Female,18 ,No
 MA-BC-II-026,Female,18 ,No
 OBU-BC-II-079,Female,18 ,No
@@ -1388,7 +1390,6 @@ S2010,Female,18 ,No
 SMC-2018-10-062,Female,20 ,Accepts Healthy Volunteers
 SMX 18001,Female,18 ,No
 A5481154,Female,20 ,No
-NRG-BR008,All,40 ,No
 TEBICA002,Female,18 ,No
 CWCD118B12201,All,18 ,No
 22-002857,All,18 ,No
@@ -1396,6 +1397,7 @@ CALORIE,Female,18 ,Accepts Healthy Volunteers
 IFOM-CPO007/2019/PO006,All,18 ,No
 S-detect 2019,Female,18 ,No
 AABCSR,Female,21 ,nan
+NRG-BR008,All,40 ,No
 FMSU2017-002B,Female,18 ,Accepts Healthy Volunteers
 2019-A01592-55,Female,18 ,No
 ABY-025-MI301,All,18 ,No
@@ -1434,8 +1436,8 @@ CSIIT-C21,Female,18 ,No
 BOOG 2018-01,All,18 ,No
 AMC2020-17,Female,18 ,No
 KY20222062-C-1,Female,18 ,No
-20201540,All,18 ,No
 RCVDBCIIR005,Female,18 ,No
+20201540,All,18 ,No
 STUDY00003282,All,18 ,No
 IRB-2022-348,Female,18 ,No
 LCCC 1639,Female,18 ,No
@@ -1476,8 +1478,8 @@ EMERGENCE GSO/2020/JF-001,Female,18 ,No
 Soh-Med-22-05-24,Female,18 ,No
 2022-0315,All,18 ,No
 KCSG BR19-13,All,19 ,No
-SYSEC-KY-KS-2019-054-001,Female,18 ,No
 STU00216520,Female,18 ,No
+SYSEC-KY-KS-2019-054-001,Female,18 ,No
 ICO-2020-25,All,18 ,No
 20805,Female,18 ,No
 HRS-1358-I-101,Female,18 ,No
@@ -1583,15 +1585,15 @@ LAE205INT3101,All,18 ,No
 201900180,Female,18 ,No
 201911047,All,18 ,No
 CAAP CA,Female,18 ,No
-BCT 2102,All,18 ,No
 JTU-6H-20211230001,All,18 ,No
-KY20223267-1,Female,18 ,No
+BCT 2102,All,18 ,No
 OCOG-2019-RHEAL,All,18 ,No
+KY20223267-1,Female,18 ,No
 SGNTUC-016,All,18 ,No
 SHEPHERD-2021-2,Female,20 ,No
 GUMPTION,Female,18 ,No
-A5481168,Female,18 ,No
 MA-BC-II-018,All,18 ,No
+A5481168,Female,18 ,No
 1401,Female,18 ,No
 SCHBCC-N041,Female,18 ,No
 IBIO-301,Female,18 ,No
@@ -1684,6 +1686,7 @@ AC682-002,Female,18 ,No
 PRO00037175,Female,18 ,No
 55516,Female,20 ,No
 MA-BC-II-007,Female,18 ,No
+SIESTA_01,All,18 ,No
 48347821.8.0000.5249,All,18 ,No
 OBU-BC-II-086,All,18 ,No
 200218,Female,18 ,No
@@ -1694,8 +1697,8 @@ MUKDEN01,Female,18 ,No
 R174-A11507-17-S52,Female,18 ,No
 000001,Female,21 ,No
 18-240,Female,40 ,Accepts Healthy Volunteers
-19-004343,Female,35 ,No
 BG01-2102,Female,18 ,No
+19-004343,Female,35 ,No
 Shandong CHI-11,Female,18 ,No
 NCC2225,Female,18 ,No
 NCC-006461,Female,18 ,No
@@ -1718,8 +1721,8 @@ CSIIT-C34,Female,18 ,No
 IEO 0834/,Female,18 ,No
 FACILE,All,70 ,No
 RP6530-2101,Female,18 ,No
-SYHX2011-002,All,18 ,No
 GEICAM/2021-08,All,18 ,No
+SYHX2011-002,All,18 ,No
 ZDWY.XBZL.002,Female,18 ,No
 D8664R00002,Female,18 ,No
 BO41843,All,18 ,No
@@ -1780,8 +1783,8 @@ breast-202204,Female,18 ,No
 D9673R00005,All,nan,No
 P170927J,Female,18 ,No
 HBBL-01,Female,18 ,No
-FDRT-BC015,Female,18 ,No
 PCZCTP-220702-001,Female,18 ,No
+FDRT-BC015,Female,18 ,No
 ERC-260,Female,30 ,No
 POL6326-009,All,18 ,No
 911,Female,20 ,No
@@ -1807,16 +1810,16 @@ ZEN003694-004,All,18 ,No
 GS-US-569-6172,All,20 ,No
 TED15954,Female,20 ,No
 s2192648,Female,18 ,No
-MAMA_MOVE_Gaia After Treatment,Female,18 ,No
 UC-0140/1812,All,18 ,No
+MAMA_MOVE_Gaia After Treatment,Female,18 ,No
 SunYatsenU2H-LQ5,Female,18 ,Accepts Healthy Volunteers
 HNCH-BC011,Female,18 ,No
 NCC3397,Female,18 ,No
 IC 2020-10,Female,18 ,No
 CTMX-2009-002,All,18 ,No
 2021-SR-592,Female,18 ,No
-2020-006106-23,Female,18 ,No
 PR351/20,All,18 ,No
+2020-006106-23,Female,18 ,No
 HR-NeoBC-HN003,Female,18 ,No
 IEO 1730,Female,18 ,No
 GIM23-POSTER,Female,18 ,No
@@ -1891,7 +1894,6 @@ SHR1210-III-322,Female,18 ,No
 BC- T-DM1,Female,18 ,No
 HERMIONE-7,Female,18 ,No
 RG1006427,Female,18 ,No
-22-x354,All,18 ,No
 CO41863,All,18 ,No
 21030,Female,18 ,No
 BAT-8001-002-CR,All,18 ,No
@@ -1899,8 +1901,8 @@ CBYL719A0US03T,All,18 ,No
 EH20-251,Female,18 ,Accepts Healthy Volunteers
 MedOPP190,All,18 ,No
 Combined CTH and HT in MBC,Female,nan,No
-A5481095,Female,18 ,No
 KN046-203,All,18 ,No
+A5481095,Female,18 ,No
 DZ2019HE001,All,18 ,No
 S62794,All,18 ,No
 SHR6390-SHR1020-I-101-BC,Female,18 ,No
@@ -1908,8 +1910,8 @@ IIT2022-07-YUAN-IB-TNBC,All,18 ,No
 MA-BC-II-047,Female,18 ,No
 FUSCC,Female,18 ,No
 222.20,Female,75 ,No
-NCC201711008,Female,18 ,No
 Bioscore in breast cancer,Female,18 ,nan
+NCC201711008,Female,18 ,No
 ShandongCHI-06,Female,20 ,No
 2019-0634,Female,50 ,Accepts Healthy Volunteers
 275142,Female,18 ,Accepts Healthy Volunteers
@@ -1985,8 +1987,8 @@ D933LC00001,Female,18 ,No
 MA-BC-II-042,Female,18 ,No
 2020-1190,Female,18 ,No
 HRS8807-I-101,Female,18 ,No
-BreCLIM-2018-116-31M,All,18 ,No
 2019-00673; sp19Kurzeder,All,18 ,No
+BreCLIM-2018-116-31M,All,18 ,No
 TQ-B3525-I-02,All,18 ,No
 HKUCTR-2709,All,18 ,No
 MUKDEN5,Female,18 ,No
@@ -2104,9 +2106,9 @@ UPNA-CUMACA-B2022,Female,18 ,No
 Pro00109917,All,18 ,No
 GCO 17-2320,All,18 ,No
 32158620.0.0000.0072,Female,18 ,No
-INT/2020/VOICE,All,18 ,No
 MA-BC-II-025,Female,18 ,Accepts Healthy Volunteers
 CPO-NBP-2002,All,18 ,Accepts Healthy Volunteers
+INT/2020/VOICE,All,18 ,No
 N assisted,Female,18 ,No
 PROSOM-K,Female,18 ,Accepts Healthy Volunteers
 SYSKY-2022-024-01,All,18 ,No
@@ -2183,8 +2185,8 @@ AnhuiPH,All,18 ,No
 21094,All,18 ,No
 PECP,Female,18 ,Accepts Healthy Volunteers
 UPCC 11121,Female,18 ,No
-11066,Female,18 ,No
 CBYL719A03201,All,18 ,No
+11066,Female,18 ,No
 S-64813,Female,18 ,No
 2020-0831,All,18 ,No
 SDO-006-20-01,All,18 ,No
@@ -2218,8 +2220,8 @@ HSaleem,Female,35 ,No
 220493,Female,18 ,No
 2020-q12,Female,18 ,No
 1280-0022,Female,18 ,No
-112626,Female,18 ,No
 0124-18-TLV,Female,35 ,No
+112626,Female,18 ,No
 BL2014084,Female,18 ,No
 20160504,Female,18 ,nan
 RLY-2608-101,All,18 ,No
@@ -2235,11 +2237,11 @@ MC1733,All,18 ,No
 294-2018,Female,18 ,No
 29747,All,18 ,No
 IFG-NIB-01,Female,18 ,No
-2022/005-OST,Female,18 ,No
 PRESSODOU-1809,Female,18 ,No
+2022/005-OST,Female,18 ,No
 WSG-AM08,Female,18 ,No
-HLX10-013-TNBCneo,Female,18 ,No
 MRG002-005,All,18 ,No
+HLX10-013-TNBCneo,Female,18 ,No
 INT 192/19,Female,18 ,No
 YWBC-001,Female,18 ,nan
 IRB-53650,All,18 ,No
@@ -2279,8 +2281,8 @@ NBG-19-01; SWEBCG 19-01,All,18 ,No
 bakircaymzeren07,Female,25 ,No
 2021SCR,Female,30 ,Accepts Healthy Volunteers
 Lymphedema Rehabilitation,Female,14 ,No
-IRB-30000320,Female,18 ,No
 VMA-253-18,Female,45 ,No
+IRB-30000320,Female,18 ,No
 9764,Female,60 ,No
 EA1211,All,18 ,No
 11B1920N_BCS-PAIN,Female,18 ,No
@@ -2348,8 +2350,8 @@ MC220303,Female,30 ,No
 STUDY00007842,Female,18 ,No
 STUDY00001007,All,18 ,Accepts Healthy Volunteers
 20-009279,Female,20 ,No
-20-133,All,18 ,Accepts Healthy Volunteers
 H19094,Female,18 ,Accepts Healthy Volunteers
+20-133,All,18 ,Accepts Healthy Volunteers
 KKKR-Neulasta OS-01,Female,19 ,No
 16-185671,Female,18 ,No
 M18BEL,Female,18 ,No
@@ -2374,9 +2376,9 @@ ACCRU-BR-1801,All,18 ,No
 17-00890,All,18 ,No
 2020-01,Female,18 ,No
 TransRosaLEE-IPC 2021-075,Female,18 ,No
-2000024495,Female,18 ,No
 UMCC 2021.109,Female,18 ,No
 TROIKA,Female,18 ,No
+2000024495,Female,18 ,No
 HMCC-BR22-001,All,18 ,No
 I 1680021,All,18 ,No
 NCC1692,Female,18 ,No
@@ -2438,8 +2440,8 @@ RG1718047,All,18 ,No
 TX05-03,Female,18 ,No
 2016/65,Female,60 ,No
 22-490,All,18 ,No
-19P.117,Female,18 ,No
 HCRN BRE19-433,All,18 ,No
+19P.117,Female,18 ,No
 S2020-09,Female,18 ,No
 SYSKY-2022-445-01,Female,18 ,No
 CGAprediting,Female,70 ,No
@@ -2459,8 +2461,8 @@ CHUV-DO-0009-CyberImmunoBreast,Female,18 ,No
 NCC3222,Female,18 ,No
 PEMBRACA,All,18 ,No
 170115,All,18 ,No
-ANG1005-CLN-07,All,18 ,No
 IJB-EBC-Decrescendo-2020,All,18 ,No
+ANG1005-CLN-07,All,18 ,No
 FASCINATE-N,Female,18 ,No
 Manual Therapy BCS,Female,18 ,No
 KUH5101090,Female,18 ,No
@@ -2608,8 +2610,8 @@ A221801,Female,22 ,No
 2018/455,Female,18 ,No
 MC2031,Female,18 ,No
 2019-1237,All,18 ,No
-TN.32.1.17.SATF,Female,18 ,No
 9988,All,19 ,No
+TN.32.1.17.SATF,Female,18 ,No
 ACT-MBC,All,18 ,No
 KN026-US-I-001,All,18 ,No
 MC1931,Female,18 ,No
@@ -2704,8 +2706,8 @@ BTCRC BRE15-024,All,18 ,No
 CASE11119,Female,18 ,No
 ZLYNXM202014,Female,18 ,No
 19.07,Female,18 ,No
-D19160,Female,18 ,No
 REaCT-Low Risk HER-2,All,18 ,No
+D19160,Female,18 ,No
 PRO00035701,All,18 ,No
 REaCT-CHRONO,All,18 ,No
 Acu-CIPN,Female,18 ,No
@@ -2776,8 +2778,8 @@ MedOPP100,Female,18 ,No
 SYSU003-2020,All,18 ,No
 MS201922_0010,All,18 ,No
 HR-BLTN-III-MBC-C,Female,18 ,No
-MC1892,All,18 ,No
 ZWI-ZW25-202,All,18 ,No
+MC1892,All,18 ,No
 MC1734,Female,18 ,No
 UW20058,Female,18 ,No
 DokuzEUBanuNihan,Female,18 ,No
@@ -2961,8 +2963,8 @@ CAPRICE,All,18 ,No
 CT/2019/CANFLAX,Female,18 ,No
 20-754,All,18 ,No
 URomLS-2019,Female,18 ,Accepts Healthy Volunteers
-mavis20023,Female,20 ,No
 2021-01-075,Female,19 ,No
+mavis20023,Female,20 ,No
 HiFi-APBI,Female,50 ,No
 Self-compassion FCR,Female,18 ,No
 20-010751,Female,18 ,No
@@ -3029,6 +3031,7 @@ FEMAL,Female,nan,No
 R.20.11.1099,Female,18 ,No
 IRB00074154,All,18 ,No
 SMC 2021-05-045,Female,18 ,No
+CI-01022,Female,18 ,Accepts Healthy Volunteers
 SamsunU,Female,18 ,No
 ShandongCHI-18,Female,18 ,No
 JWCI OBCS WITH IORT,Female,50 ,Accepts Healthy Volunteers
@@ -3092,8 +3095,8 @@ IRB00046759,Female,18 ,No
 2021-A03027-34,Female,18 ,Accepts Healthy Volunteers
 IRB-44367,Female,18 ,No
 NEPA-17-05,Female,18 ,No
-I3Y-MC-B009,All,18 ,No
 SHR6390-III-303,Female,18 ,No
+I3Y-MC-B009,All,18 ,No
 17/222,All,25 ,Accepts Healthy Volunteers
 JCL2020,Female,18 ,No
 2022-761,Female,50 ,No
@@ -3188,8 +3191,8 @@ ERAS-ABR,Female,18 ,No
 ProFertil,Female,14 ,No
 MEDOPP240,All,18 ,No
 TQB3616-I-0001,Female,18 ,No
-BreastIls-1605,All,18 ,No
 7964,Female,40 ,nan
+BreastIls-1605,All,18 ,No
 18-00309,All,18 ,No
 2005P002282,All,35 ,Accepts Healthy Volunteers
 2023-9333,All,18 ,Accepts Healthy Volunteers
@@ -3339,6 +3342,7 @@ I 56617,All,18 ,Accepts Healthy Volunteers
 TAK-676-1003,All,18 ,No
 STUDY00022229,All,18 ,No
 CR108557,All,18 ,Accepts Healthy Volunteers
+FMP-2020-01-TIP,Female,18 ,nan
 UPCC 25920,All,18 ,No
 MEDOPP243,All,18 ,No
 4901,Female,20 ,No
@@ -3347,8 +3351,8 @@ MEDOPP243,All,18 ,No
 Yvonne Wengstrom,Female,18 ,No
 4-2019-0795,Female,20 ,No
 None yet,All,20 ,No
-20180569-01H,All,18 ,No
 REaCT-Hold BMA,All,18 ,No
+20180569-01H,All,18 ,No
 2020-0761,Female,50 ,Accepts Healthy Volunteers
 202005217,Female,18 ,No
 Abbreviated Breast MRI,Female,nan,Accepts Healthy Volunteers
@@ -3501,8 +3505,8 @@ RIS42756,Female,50 ,Accepts Healthy Volunteers
 18-294,Female,40 ,Accepts Healthy Volunteers
 YH32367-101,All,18 ,No
 HP-00088085,Female,18 ,No
-2021.127,Female,18 ,No
 2020-0974,Female,18 ,No
+2021.127,Female,18 ,No
 ShantouCH,Female,18 ,No
 HYACOM,Female,18 ,No
 NL82061.096.22,Female,18 ,No
@@ -3536,8 +3540,8 @@ AP2110-30111,Female,18 ,No
 IRB202101449,Female,18 ,No
 NL72808.068.20,Female,18 ,No
 IIT2021-01-Shiao-CSF1Ri,Female,18 ,No
-R17096,Female,18 ,No
 WHITE TEA,Female,18 ,No
+R17096,Female,18 ,No
 2017/15,Female,18 ,No
 A222101,All,18 ,No
 AP2014-50103,Female,18 ,No
@@ -3554,8 +3558,8 @@ RG1007834,All,18 ,No
 KCT001,All,18 ,No
 HE641269,Female,18 ,No
 AIUR trial,Female,19 ,No
-S-20200094,All,nan,No
 ATADEK 2021-14/18,Female,18 ,Accepts Healthy Volunteers
+S-20200094,All,nan,No
 LBS-CA-PTL-033,All,18 ,Accepts Healthy Volunteers
 19-665,All,18 ,No
 RECHMPL18_0244,Female,20 ,No
@@ -3573,8 +3577,8 @@ OX2022-203-01,All,18 ,No
 2018-0561,All,18 ,No
 IRB00180383,Female,21 ,Accepts Healthy Volunteers
 ID-RCB: 2018-A03356-49,All,18 ,No
-2011684,Female,18 ,No
 2021/058,Female,18 ,No
+2011684,Female,18 ,No
 CDK-002-101,All,18 ,No
 SAPB for MRM 2.0,Female,18 ,No
 2020_16,Female,25 ,No
@@ -3660,8 +3664,8 @@ Pro00052823,Female,21 ,No
 PKUPH10B001,Female,18 ,No
 19.58/ONCO19.08,Female,18 ,No
 CCS1477-01,All,18 ,No
-CO-338-098,All,18 ,No
 CIRCADIAN,Female,18 ,No
+CO-338-098,All,18 ,No
 UBP-A103-HER2,Male,20 ,Accepts Healthy Volunteers
 UMCC 2021.071,Female,18 ,No
 Pro00040035,Female,21 ,No
@@ -3823,8 +3827,8 @@ HCC 21-265,Female,18 ,No
 HNCH-BC007,Female,18 ,No
 2020-0498,Female,18 ,No
 NBE-002-01,All,18 ,No
-1B-22-2,All,18 ,No
 PROT002 - Test Plan 01 Rev A,Female,35 ,No
+1B-22-2,All,18 ,No
 Gen 2 - 01,All,18 ,No
 PROT001,All,18 ,No
 MW05-2020-CP301,Female,18 ,No
@@ -4055,8 +4059,8 @@ CHANCES-IPC 2021-008,All,18 ,No
 17-694,Female,30 ,No
 SLS17-201/MK3475-770,All,18 ,Accepts Healthy Volunteers
 AP2207-30110,Female,18 ,No
-2015-KAEK-64-22-09,All,35 ,Accepts Healthy Volunteers
 FZPL-Ⅲ-301-OC,Female,18 ,No
+2015-KAEK-64-22-09,All,35 ,Accepts Healthy Volunteers
 2022-0329,Female,18 ,No
 CLODIS,Female,18 ,No
 KE-0254/92/2018,Female,18 ,No
@@ -4101,8 +4105,8 @@ IIT-2021-CANINE,All,18 ,nan
 PROICM 2017-05 BAL,All,18 ,No
 Breast Biopsy,Female,18 ,Accepts Healthy Volunteers
 2018P000084,Female,18 ,Accepts Healthy Volunteers
-GOP,Female,nan,No
 IRB00167074,Female,18 ,No
+GOP,Female,nan,No
 NIP IT!,All,18 ,No
 CDKY709A12101C,All,18 ,No
 IRB#21-001169,All,18 ,No
@@ -4128,8 +4132,8 @@ BA3021-001,All,18 ,No
 13104,Female,18 ,No
 PRT2527-01,All,18 ,No
 RECHMPL22_0024,All,18 ,No
-21-369,All,18 ,No
 120134,Female,18 ,No
+21-369,All,18 ,No
 Pro00078230,All,18 ,No
 18-000948,Female,25 ,No
 20-08,Female,35 ,Accepts Healthy Volunteers
@@ -4144,8 +4148,8 @@ PT3465,Female,40 ,No
 Lishui Peoples Hospital,All,18 ,No
 HAN2014005-CT02,Female,nan,No
 SHEBA-19-6136-RS-CTIL,All,18 ,No
-GS-US-417-5937,All,18 ,Accepts Healthy Volunteers
 2021/01159,All,21 ,No
+GS-US-417-5937,All,18 ,Accepts Healthy Volunteers
 SOGUG-2016-A-IEC(PRO)-12,Male,18 ,No
 CCR5653,All,18 ,nan
 PPP005-Ph2/3-01,All,18 ,No
@@ -4244,8 +4248,8 @@ Elasto Trial,Female,18 ,No
 Soh-Med-22-09-01,Female,18 ,Accepts Healthy Volunteers
 N201810002,All,20 ,No
 MastoVit150,Female,18 ,No
-CASE1219,All,40 ,No
 OCOG-2021-ELISA,Female,46 ,No
+CASE1219,All,40 ,No
 CHIRCOLREC-IPC 2018-017,All,18 ,No
 RELI/19/Der-Rdt/001,Female,18 ,No
 GS-US-467-5643,All,18 ,No
@@ -4333,6 +4337,7 @@ NL75863.068.21,Female,18 ,No
 20-009,All,18 ,No
 PUMCH-NM-11/041,Male,18 ,No
 ISU104-001,All,19 ,No
+SLNB,All,18 ,No
 BR/2019/487,Female,40 ,No
 ATADEK/2022.11,Female,45 ,Accepts Healthy Volunteers
 60116787-020/34123,Female,18 ,No
@@ -4407,8 +4412,8 @@ RTX-224-01,All,18 ,No
 SGNB7H4V-001,All,18 ,No
 ShuangHoH,All,20 ,No
 P130935,All,18 ,Accepts Healthy Volunteers
-2000029793,All,18 ,No
 794/2020/Farm/IOR,All,14 ,No
+2000029793,All,18 ,No
 CMUH109-REC2-101,All,20 ,Accepts Healthy Volunteers
 RNI 2021 LEBRETON 3 (EVIGE),All,18 ,No
 SBNK-YJ-2020-016-02,All,0,No
@@ -4446,8 +4451,8 @@ IX-2021-DS-LEARN,All,18 ,No
 Pro00101102,All,18 ,No
 ALXN2040-HV-102,All,18 ,Accepts Healthy Volunteers
 NL66650.041.18,All,18 ,No
-21083,All,18 ,Accepts Healthy Volunteers
 NCI-2020-01206,All,18 ,No
+21083,All,18 ,Accepts Healthy Volunteers
 STUDY00144314,All,nan,Accepts Healthy Volunteers
 19-068,All,18 ,No
 69HCL21_0409,All,18 ,No
@@ -4465,16 +4470,16 @@ XL092-001,All,18 ,No
 HSC-SPH-20-1117,Female,21 ,Accepts Healthy Volunteers
 B2017-113R,All,15 ,Accepts Healthy Volunteers
 PH-FAPGA-01/22,All,18 ,No
-GCT1029-01,All,18 ,No
 FPA150-001,All,18 ,No
+GCT1029-01,All,18 ,No
 STU-2019-0522,Female,18 ,Accepts Healthy Volunteers
 HEALED_CPS3,All,18 ,Accepts Healthy Volunteers
 PJ-KS-KY-2019-134,All,18 ,nan
 PY314-1-01,All,18 ,No
 LAUMCRH.YJ1.16/Jul/2019,Female,18 ,No
 DMT-2019.002,All,nan,No
-AD10,All,18 ,No
 DMT-2019.001,All,nan,No
+AD10,All,18 ,No
 CASE7Y16,All,18 ,No
 1474/19,All,nan,No
 CNZV930X2101,All,18 ,No
@@ -4616,8 +4621,8 @@ CYH33-G102,All,18 ,No
 20-410,All,18 ,Accepts Healthy Volunteers
 202101,All,18 ,No
 NB-ND021 (NM21-1480)-101,All,18 ,No
-17-262-01,All,18 ,No
 SBT6050-101,All,18 ,No
+17-262-01,All,18 ,No
 UC-IMM-2101,All,18 ,No
 ADCT-301-103,All,18 ,No
 170177,All,18 ,No
@@ -4724,6 +4729,7 @@ ATOS-016R,Female,40 ,Accepts Healthy Volunteers
 HSP70CTC,All,18 ,No
 Pro00104093,All,18 ,No
 VNC-236-101,All,18 ,No
+DB-1303-O-1001,All,18 ,No
 Metabolic Cancer 001,All,18 ,No
 POWER,All,18 ,No
 19-000756,All,18 ,No
@@ -4790,7 +4796,6 @@ ZZITICI-004,All,18 ,No
 QBS-72S-1001,All,18 ,No
 2440LM-002,All,18 ,No
 MX-011-219,All,21 ,Accepts Healthy Volunteers
-DB-1303-O-1001,All,18 ,No
 VISTA-101,All,18 ,No
 ZZICI3-015,All,18 ,No
 ALS-6000-101,All,18 ,No
@@ -4818,6 +4823,7 @@ MAPreminder2,All,18 ,No
 G190165,All,18 ,No
 JSKN003-102,All,18 ,No
 RAIN-3202,All,18 ,No
+IN10018-010,All,18 ,No
 05-2019,Female,18 ,Accepts Healthy Volunteers
 56160922.7.3001.5274,All,18 ,No
 PN #1082409C,Female,18 ,No
@@ -4870,6 +4876,7 @@ TUMAGNOSTIC(CP506-001),All,18 ,No
 20210104,All,18 ,No
 01GS,All,40 ,Accepts Healthy Volunteers
 217228,All,18 ,No
+CBP-1019-101,All,18 ,No
 FT516-102,All,18 ,No
 19-110,All,18 ,No
 IMC-F106C-101,All,18 ,No
@@ -4985,8 +4992,8 @@ STUDY21020095,Female,18 ,No
 D967MC00001,All,18 ,No
 UHHeidelberg,All,18 ,No
 R01CA205025,All,18 ,No
-HCB/2021/0130,Female,18 ,Accepts Healthy Volunteers
 2019-PVSEP,All,nan,No
+HCB/2021/0130,Female,18 ,Accepts Healthy Volunteers
 TMHPO1763,Female,30 ,Accepts Healthy Volunteers
 002.1,All,21 ,No
 LIFT,All,18 ,No
