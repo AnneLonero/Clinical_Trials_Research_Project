@@ -39,9 +39,11 @@ The database was built in Postgre pgAdmin using 5 separated tables, and used `ID
 #### 3. Supervised Machine Learning Model
 &#9989; Technologies used<br>
 *Progress Status*: 3 Supervised Learning Models were built and Optimized for Observational and Interventional Studies, Observational studies ONLY, and Interventional studies ONLY
-After running SQL queries in database, we found that there are two main study types Observational and Intervention. We build a Supervised Learning Model for both Observation and Interventional studies to explore and evaluate the potential features for our model. We then break down each study type to learn separately, since each has a different set of contributing characteristics that need to be examined more closely. 
-We determined that `Status` column will be our target, then dropped the `Unknown Status` since it doesn't serve any purpose for our analysis. We then placed the studies status in 2 buckets. `High_chance` includes `Completed, Recruiting, Enrolling by invitation`, and `low_chance` includes `Withdrawn, Terminated, Suspendended, Not yet recruiting, and Active, not Recruiting`.
-All models were built using `RandomForestClassifer`,`BalancedRandomForest`, an `LogisticRegression` and later resampled using `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling - SMOTEENN`.
+* There are two main study types Observational and Intervention after running SQL queries in database. 
+* Supervised Learning Models were built for both Observation and Interventional studies to explore and evaluate the potential features for our model. 
+* Each study types then has separated learning models, since each has a different set of contributing characteristics that need to be examined more closely. 
+* `Status` column would be the target. The `Unknown Status` was dropped since it did't serve any purpose for our analysis. All other studies status were separated into 2 buckets. `High_chance` includes `Completed, Recruiting, Enrolling by invitation`, and `low_chance` includes `Withdrawn, Terminated, Suspendended, Not yet recruiting, and Active, not Recruiting`.
+* All models were built using `RandomForestClassifer`,`BalancedRandomForest`, an `LogisticRegression` and later resampled using `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling - SMOTEENN`.
 
 #### 4. Display Analysis Results and Findings using Tableau
 (Annekah, please add a brief discription here!)
