@@ -25,11 +25,12 @@ While the purview of this project is restricted to clinical trials of breast can
 #### 1. Extract, Transfer, Load and Clean the data <br> 
 (Please feel free to edit this Gahyun and Annekah)
 
-*Progress Status*: All data was extracted from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home), cleaned and loaded into 5 [tables](https://github.com/AnneLonero/Clinical_Trials_Research_Project/tree/main/Tables).<br>  
+*Progress Status*: All data was extracted from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home), cleaned and loaded into 5 [tables](https://github.com/AnneLonero/Clinical_Trials_Research_Project/tree/main/Tables).
 Data extracted as json files from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home) were converted into multiple DataFrames for data cleaning. Data in each of the dataframes were first converted as string, then each values were run through ```for``` loops to remove any unnecessary characters through regular expression. All columns were then renamed. Because some trials had multiple rows, duplicate rows based on the trial ID have beeen removed using ```drop_duplicates(subset=[ID], keep='first')```.
 
 #### 2. Build Database<br>
 *Progress Status*: Database finished with 5 tables. All the data was intergrated and ready for queries. SQL Queries ran to achieve multiple statistic analysis and created additional customed tables for future analysis.<br> 
+
 The database was built in Postgre pgAdmin using 5 separated tables, and used `ID` as a primary key for each table (find below). The data was then integrated to database using csv files.
 
 ![field_tables](https://github.com/AnneLonero/Clinical_Trials_Research_Project/blob/main/Database/QuickDBD-schema.png)<br>
@@ -37,10 +38,12 @@ The database was built in Postgre pgAdmin using 5 separated tables, and used `ID
 &#9989; Description of data analysis phase<br>
 #### 3. Supervised Machine Learning Model
 &#9989; Technologies used<br>
-After running SQL queries in database, we found that there are two main study types Observational and Intervention. We build a Supervised Learning Model for both Observation and Interventional studies to explore and evaluate the potential features for our model. We then break down each study type to learn separately, since each has a different set of contributing characteristics that need to be examined more closely. All models were built using `BalancedRandomForest` and later Optimized using `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling`.
+*Progress Status*: 3 Supervised Learning Models were built and Optimized for Observational and Interventional Studies, Observational studies ONLY, and Interventional studies ONLY
+After running SQL queries in database, we found that there are two main study types Observational and Intervention. We build a Supervised Learning Model for both Observation and Interventional studies to explore and evaluate the potential features for our model. We then break down each study type to learn separately, since each has a different set of contributing characteristics that need to be examined more closely. All models were built using `BalancedRandomForest` and later resampled using `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling`.
 
 #### 4. Display Analysis Results and Findings using Tableau
 (Annekah, please add a brief discription here!)
+*In Progress* 
 
 ## Results
 
@@ -51,13 +54,17 @@ After running SQL queries in database, we found that there are two main study ty
 
 ### Observational and Interventional Studies - Supervised Learning Model
 
-* After cleaning the dataframe, we ended up with 4936 rows of data including both Interventinal and Observational studies. We determined that `Status` column will be our target, then dropped the `Unknown Status` since it doesn't serve any purpose for our analysis. We then placed the studies status in 2 buckets. `High_chance` includes `Completed, Recruiting, Enrolling by invitation` and `low_chance` includes `Withdrawn, Terminated, Suspendended, Not yet recruiting, and Active, not Recruiting`.
+* After cleaning the dataframe, we ended up with 4957 rows of data including both Interventinal and Observational studies. We determined that `Status` column will be our target, then dropped the `Unknown Status` since it doesn't serve any purpose for our analysis. We then placed the studies status in 2 buckets. `High_chance` includes `Completed, Recruiting, Enrolling by invitation`, and `low_chance` includes `Withdrawn, Terminated, Suspendended, Not yet recruiting, and Active, not Recruiting`.
 
-* The targeted data is skewed toward `high_chance`, 3079 datapoint versus 1051 data point for `low_chance`. Subsequently, it shows the same trend in the training and testing dataset. 
+* The targeted data is skewed toward `high_chance`, 3091 datapoint versus 1414 data point for `low_chance`. Subsequently, it shows the same trend in the training and testing dataset. 
 
-*  A supervised learning model was created using `BalancedRandomForest`, and the balanced accuracy score for the model is only about 58%. 
+*  A supervised learning model was created using `BalancedRandomForest`, and the balanced accuracy score for the model is only about 59%. 
 
-* The precision for `high_chance` is 75% with sensitivity is 61% which makes F1 score is 0.67.
+* The precision for `high_chance` is 75% with sensitivity is 60% which makes F1 score is 0.67. 
+
+* The model was then resampled but did not yeild a better result with the balance accuracy scores are `NaiveRandomSampling`: 51%, `SMOTE`: 50%, `UnderSampling`: 50%, and `Combination(OverandUnder)Sampling`: 55%.
+
+* The list of the features sorted in the descending order by the importance shows that `actual_duration` and `enrollment_count` are the two leading important features.
 
 
 ### Observational Studies ONLY - Supervised Learning Model
