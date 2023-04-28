@@ -39,7 +39,9 @@ The database was built in Postgre pgAdmin using 5 separated tables, and used `ID
 #### 3. Supervised Machine Learning Model
 &#9989; Technologies used<br>
 *Progress Status*: 3 Supervised Learning Models were built and Optimized for Observational and Interventional Studies, Observational studies ONLY, and Interventional studies ONLY
-After running SQL queries in database, we found that there are two main study types Observational and Intervention. We build a Supervised Learning Model for both Observation and Interventional studies to explore and evaluate the potential features for our model. We then break down each study type to learn separately, since each has a different set of contributing characteristics that need to be examined more closely. All models were built using `BalancedRandomForest` and later resampled using `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling`.
+After running SQL queries in database, we found that there are two main study types Observational and Intervention. We build a Supervised Learning Model for both Observation and Interventional studies to explore and evaluate the potential features for our model. We then break down each study type to learn separately, since each has a different set of contributing characteristics that need to be examined more closely. 
+We determined that `Status` column will be our target, then dropped the `Unknown Status` since it doesn't serve any purpose for our analysis. We then placed the studies status in 2 buckets. `High_chance` includes `Completed, Recruiting, Enrolling by invitation`, and `low_chance` includes `Withdrawn, Terminated, Suspendended, Not yet recruiting, and Active, not Recruiting`.
+All models were built using `RandomForestClassifer`,`BalancedRandomForest`, an `LogisticRegression` and later resampled using `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling - SMOTEENN`.
 
 #### 4. Display Analysis Results and Findings using Tableau
 (Annekah, please add a brief discription here!)
@@ -54,21 +56,30 @@ After running SQL queries in database, we found that there are two main study ty
 
 ### Observational and Interventional Studies - Supervised Learning Model
 
-* After cleaning the dataframe, we ended up with 4957 rows of data including both Interventinal and Observational studies. We determined that `Status` column will be our target, then dropped the `Unknown Status` since it doesn't serve any purpose for our analysis. We then placed the studies status in 2 buckets. `High_chance` includes `Completed, Recruiting, Enrolling by invitation`, and `low_chance` includes `Withdrawn, Terminated, Suspendended, Not yet recruiting, and Active, not Recruiting`.
+* Random Forest Classifier<br>
+![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_forest.png)
+![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_features_importance.png)<br><br>
 
-* The targeted data is skewed toward `high_chance`, 3091 datapoint versus 1414 data point for `low_chance`. Subsequently, it shows the same trend in the training and testing dataset. 
+* Banlanced Random Forest Classifier<br>
+![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_balanced_random_forest.png)<br><br>
 
-*  A supervised learning model was created using `BalancedRandomForest`, and the balanced accuracy score for the model is only about 59%. 
+* Logistic Regression Model <br>
+![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_lr.png)
+<br><br>
 
-* The precision for `high_chance` is 75% with sensitivity is 60% which makes F1 score is 0.67. 
+* Re-Sampling<br>
+    - Oversampling: Random Over Sampling <br>
+    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_oversample.png)
 
-* The model was then resampled but did not yeild a better result with the balance accuracy scores are `NaiveRandomSampling`: 51%, `SMOTE`: 50%, `UnderSampling`: 50%, and `Combination(OverandUnder)Sampling`: 55%.
+    - Undersampling: Cluster Centroid <br>
+    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_undersampling.png)
 
-* The list of the features sorted in the descending order by the importance shows that `actual_duration` and `enrollment_count` are the two leading important features.
+    - Combination: SMOTEENN <br>
+    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_SMOTEENN.png)
 
 
 ### Observational Studies ONLY - Supervised Learning Model
-(Text and images here!) - Gahyun
+
 * Random Forest Classifier<br>
 ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_random_forest.jpg)
 ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_random_forest_importance.jpg)<br><br>
