@@ -62,6 +62,29 @@ After running SQL queries in database, we found that there are two main study ty
 
 ### Observational Studies ONLY - Supervised Learning Model
 (Text and images here!) - Gahyun
+* Random Forest Classifier<br>
+![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_random_forest.jpg)
+![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_random_forest_importance.jpg)<br><br>
+
+* Banlanced Random Forest Classifier<br>
+![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_bal_random_forest.jpg)
+![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_bal_random_forest_importance.jpg)
+<br><br>
+
+* Logistic Regression Model <br>
+![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_lr.jpg)
+<br><br>
+
+* Re-Sampling<br>
+    - Oversampling: Random Over Sampling <br>
+    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_ros.jpg)
+
+    - Undersampling: Cluster Centroid <br>
+    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_cluster.jpg)
+
+    - Combination: SMOTEENN <br>
+    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_smoteenn.jpg)
+
 
 ### Interventional Studies ONLY - Supervised Learning Model
 (Text and imaged here!)
