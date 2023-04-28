@@ -59,25 +59,25 @@ The database was built in Postgre pgAdmin using 5 separated tables, and used `ID
 ### Observational and Interventional Studies - Supervised Learning Model
 
 * Random Forest Classifier<br>
-![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_forest.png)
-![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_features_importance.png)<br><br>
+![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_random_forest.png)
+![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_features_importance.png)<br><br>
 
 * Banlanced Random Forest Classifier<br>
-![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_balanced_random_forest.png)<br><br>
+![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_balanced_random_forest.png)<br><br>
 
 * Logistic Regression Model <br>
-![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_lr.png)
+![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_lr.png)
 <br><br>
 
 * Re-Sampling<br>
     - Oversampling: Random Over Sampling <br>
-    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_oversample.png)
+    ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_random_oversampling.png)
 
     - Undersampling: Cluster Centroid <br>
-    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_undersampling.png)
+    ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_undersampling.png)
 
     - Combination: SMOTEENN <br>
-    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_SMOTEENN.png)
+    ![Ivs/Obsl](Images/Machine%20Learning%20Results/ivs_obs_SMOTEENN.png)
 
 
 ### Observational Studies ONLY - Supervised Learning Model
