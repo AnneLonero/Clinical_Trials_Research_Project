@@ -54,6 +54,7 @@ The database was built in Postgre pgAdmin using 5 separated tables, and used `ID
 &#9989; Results of analysis
 
 ### Tableau Analysis
+[Tableau Dashboard] (https://public.tableau.com/app/profile/annekah.jones/viz/Story1Demo/ClinicalTrialsDahsboard?publish=yes)
 (Text and images here!) - Annekah
 
 ### Observational and Interventional Studies - Supervised Learning Model
