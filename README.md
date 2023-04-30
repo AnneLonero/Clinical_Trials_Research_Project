@@ -32,6 +32,9 @@ As shown above, all values in DataFrames were enclosed by ```[]``` brackets, whi
 
 There also were some trials had multiple rows of data (duplicated ID's), which needed to be cleaned for our analysis purposed. Only the first rows of the duplicated ID numbers were kept using ```drop_duplicates(subset=[ID], keep='first')```.
 
+We had to change the Start Date, Completion Date, and Actual Duration to datetime type. We had to also modify some of the variables, such as Intervention Type, Observation Study Model, and Arm Group Type to keep only the first provided response in order to create more streamlined visualizations. 
+
+
 #### 2. Build Database<br>
 *Progress Status*: Database finished with 5 tables. All the data was intergrated and ready for queries. SQL Queries ran to achieve multiple statistic analysis and created additional customed tables for future analysis.<br> 
 
@@ -50,15 +53,24 @@ The database was built in Postgre pgAdmin using 5 separate tables and used `ID` 
 * All models were built using `RandomForestClassifer`,`BalancedRandomForest`, an `LogisticRegression` and later resampled using `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling - SMOTEENN`.
 
 #### 4. Display Analysis Results and Findings using Tableau
-(Annekah, please add a brief discription here!)
-*In Progress* 
+A large number of visualizations were able to be made from our different CSV files that we created. 
+We were able to look at:
+        - the minimum age for each study
+        - the enrollment counts
+        - the proportion of enrollment for each study type
+        - actual duration of the clinical trials
+        - the status of the trials based on study type and phase respectively
+        - the number of trials that used each different study model for both the Interventional and Observational methods
+        - the number of trials that used each combination of arm group type and intevention type
+        - the gender eligibility for the trials
+        - whether or not they accepted people who did not have a disease or condition to participate in the observation study. 
 
 ## Results
 
 &#9989; Results of analysis
 
 ### Tableau Analysis
-[Tableau Dashboard] (https://public.tableau.com/app/profile/annekah.jones/viz/Story1Demo/ClinicalTrialsDahsboard?publish=yes)
+[Tableau Dashboard](https://public.tableau.com/app/profile/annekah.jones/viz/Story1Demo/ClinicalTrialsDahsboard?publish=yes)
 (Text and images here!) - Annekah
 
 ### Observational and Interventional Studies - Supervised Learning Model
