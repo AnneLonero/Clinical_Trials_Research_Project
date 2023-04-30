@@ -55,15 +55,15 @@ The database was built in Postgre pgAdmin using 5 separate tables and used `ID` 
 #### 4. Display Analysis Results and Findings using Tableau
 A large number of visualizations were able to be made from our different CSV files that we created. 
 We were able to look at:
-        * the minimum age for each study
-        * the enrollment counts
-        * the proportion of enrollment for each study type
-        * actual duration of the clinical trials
-        * the status of the trials based on study type and phase respectively
-        * the number of trials that used each different study model for both the Interventional and Observational methods
-        * the number of trials that used each combination of arm group type and intevention type
-        * the gender eligibility for the trials
-        * whether or not they accepted people who did not have a disease or condition to participate in the observation study. 
+* the minimum age for each study
+* the enrollment counts
+* the proportion of enrollment for each study type
+* actual duration of the clinical trials
+* the status of the trials based on study type and phase respectively
+* the number of trials that used each different study model for both the Interventional and Observational methods
+* the number of trials that used each combination of arm group type and intevention type
+* the gender eligibility for the trials
+* whether or not they accepted people who did not have a disease or condition to participate in the observation study. 
 
 ## Results
 
