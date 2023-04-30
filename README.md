@@ -26,22 +26,26 @@ While the purview of this project is restricted to clinical trials of breast can
 (Please feel free to edit this Gahyun and Annekah)
 
 *Progress Status*: All data was extracted from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home), cleaned and loaded into 5 [tables](https://github.com/AnneLonero/Clinical_Trials_Research_Project/tree/main/Tables).
-Data extracted as json files from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home) were converted into multiple DataFrames for data cleaning. Data in each of the dataframes were first converted as string, then each values were run through ```for``` loops to remove any unnecessary characters through regular expression. All columns were then renamed. Because some trials had multiple rows, duplicate rows based on the trial ID have beeen removed using ```drop_duplicates(subset=[ID], keep='first')```.
+Data extracted as json files from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home) were converted into multiple DataFrames for data cleaning. 
+![Pre-cleaned dataframe](Images/pre_cleaned_data.jpg)<br>
+As shown above, all values in DataFrames were enclosed by ```[]``` brackets, which needed to be removed for data processing. All dataframes' values were first converted to string, then each values were run through ```for``` loops to remove the brackets through regular expression. All columns were then renamed. 
+
+There also were some trials had multiple rows of data (duplicated ID's), which needed to be cleaned for our analysis purposed. Only the first rows of the duplicated ID numbers were kept using ```drop_duplicates(subset=[ID], keep='first')```.
 
 #### 2. Build Database<br>
 *Progress Status*: Database finished with 5 tables. All the data was intergrated and ready for queries. SQL Queries ran to achieve multiple statistic analysis and created additional customed tables for future analysis.<br> 
 
-The database was built in Postgre pgAdmin using 5 separated tables, and used `ID` as a primary key for each table (find below). The data was then integrated to database using csv files.
+The database was built in Postgre pgAdmin using 5 separate tables and used `ID` as primary key for each table (find below). The data was then integrated to database using csv files.
 
-![field_tables](https://github.com/AnneLonero/Clinical_Trials_Research_Project/blob/main/Database/QuickDBD-schema.png)<br>
+![field_tables](Database/QuickDBD-schema.png)<br>
 
 &#9989; Description of data analysis phase<br>
 #### 3. Supervised Machine Learning Model
 &#9989; Technologies used<br>
 *Progress Status*: 3 Supervised Learning Models were built and Optimized for Observational and Interventional Studies, Observational studies ONLY, and Interventional studies ONLY
-* There are two main study types Observational and Intervention after running SQL queries in database. 
+* There are two main study types - Observational and Interventional. 
 * Supervised Learning Models were built for both Observation and Interventional studies to explore and evaluate the potential features for our model. 
-* Each study types then has separated learning models, since each has a different set of contributing characteristics that need to be examined more closely. 
+* Machine learning models were performed for each study types since each had different set of contributing characteristics that needed to be examined more closely. 
 * `Status` column would be the target. The `Unknown Status` was dropped since it did't serve any purpose for our analysis. All other studies status were separated into 2 buckets. `High_chance` includes `Completed, Recruiting, Enrolling by invitation`, and `low_chance` includes `Withdrawn, Terminated, Suspendended, Not yet recruiting, and Active, not Recruiting`.
 * All models were built using `RandomForestClassifer`,`BalancedRandomForest`, an `LogisticRegression` and later resampled using `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling - SMOTEENN`.
 
@@ -88,11 +92,11 @@ Multiple learning machine models (Random Forest, Balanced Random Forest, and Log
 
 * Random Forest Classifier<br>
 ![Observational - Random Forest](Images/Machine%20Learning%20Results/obs_random_forest.jpg)
-![Observational - Random Forest](Images/Machine%20Learning%20Results/obs_random_forest_importance.jpg)<br><br>
+![Observational - Random Forest](Images/Machine%20Learning%20Results/obs_random_forest_importance_plot.png)<br><br>
 
 * Banlanced Random Forest Classifier<br>
 ![Observational - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_bal_random_forest.jpg)
-![Observational - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_bal_random_forest_importance.jpg)
+![Observational - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_bal_random_forest_importance_plot.png)
 <br><br>
 
 * Logistic Regression Model <br>
@@ -114,14 +118,15 @@ Multiple learning machine models (Random Forest, Balanced Random Forest, and Log
 
 
 ### Interventional Studies ONLY - Supervised Learning Model
+Machine learning on interventional studies resulted in much lower accuracy than that of obervational's. This seems to be because there are far more variables in interventional clinical trials than there are variables for observational clinical traisl. Like obervational machine learnings, multiple machine learning models were performed, and again, logistic regression model performed the best. Resampling the data, however, did not produce better results - only random over sapling produced slightly better accruacy than normal logistic regression model.
 
-
+* Random Forest Classifier <br>
 ![Interventional - Random Forest](Images/Machine%20Learning%20Results/ivs_random_forest.jpg)
-![Interventional - Random Forest](Images/Machine%20Learning%20Results/ivs_random_forest_importance.jpg)<br><br>
+![Interventional - Random Forest](Images/Machine%20Learning%20Results/ivs_random_forest_importance_plot.png)<br><br>
 
 * Banlanced Random Forest Classifier<br>
 ![Interventional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_bal_random_forest.jpg)
-![Interventional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_bal_random_forest_importance.jpg)
+![Interventional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_bal_random_forest_importance_plot.png)
 <br><br>
 
 * Logistic Regression Model <br>
