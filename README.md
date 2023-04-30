@@ -83,32 +83,63 @@ The database was built in Postgre pgAdmin using 5 separated tables, and used `ID
 
 ### Observational Studies ONLY - Supervised Learning Model
 
+Multiple learning machine models (Random Forest, Balanced Random Forest, and Logistic Regression) were performed to test which model has higher accuracy in determining the status of the clinical trials. Of the three models tested, logistic regression shows best performance, so was done only on losgistic regression model to test if resampling will result in even better performance. Of 4 resamplings performed, oversampling has performed the best, boosting balance accuracy by about 6%.<br>
+
+
 * Random Forest Classifier<br>
-![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_random_forest.jpg)
-![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_random_forest_importance.jpg)<br><br>
+![Observational - Random Forest](Images/Machine%20Learning%20Results/obs_random_forest.jpg)
+![Observational - Random Forest](Images/Machine%20Learning%20Results/obs_random_forest_importance.jpg)<br><br>
 
 * Banlanced Random Forest Classifier<br>
-![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_bal_random_forest.jpg)
-![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_bal_random_forest_importance.jpg)
+![Observational - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_bal_random_forest.jpg)
+![Observational - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_bal_random_forest_importance.jpg)
 <br><br>
 
 * Logistic Regression Model <br>
-![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_lr.jpg)
+![Observational - Logistic Regression](Images/Machine%20Learning%20Results/obs_lr.jpg)
 <br><br>
 
 * Re-Sampling<br>
     - Oversampling: Random Over Sampling <br>
-    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_ros.jpg)
+    ![Observational - ROS](Images/Machine%20Learning%20Results/obs_ros.jpg)
+
+    - Oversampling: SMOTE <br>
+    ![Observational - SMOTE](Images/Machine%20Learning%20Results/obs_smote.jpg)
 
     - Undersampling: Cluster Centroid <br>
-    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_cluster.jpg)
+    ![Observational - Cluster Centroie](Images/Machine%20Learning%20Results/obs_cluster.jpg)
 
     - Combination: SMOTEENN <br>
-    ![Observataional - Balanced Random Forest](Images/Machine%20Learning%20Results/obs_smoteenn.jpg)
+    ![Observational - SMOTEENN](Images/Machine%20Learning%20Results/obs_smoteenn.jpg)
 
 
 ### Interventional Studies ONLY - Supervised Learning Model
-(Text and imaged here!)
+
+
+![Interventional - Random Forest](Images/Machine%20Learning%20Results/ivs_random_forest.jpg)
+![Interventional - Random Forest](Images/Machine%20Learning%20Results/ivs_random_forest_importance.jpg)<br><br>
+
+* Banlanced Random Forest Classifier<br>
+![Interventional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_bal_random_forest.jpg)
+![Interventional - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_bal_random_forest_importance.jpg)
+<br><br>
+
+* Logistic Regression Model <br>
+![Interventional - Logistic Regression](Images/Machine%20Learning%20Results/ivs_lr.jpg)
+<br><br>
+
+* Re-Sampling<br>
+    - Oversampling: Random Over Sampling <br>
+    ![Interventional - ROS](Images/Machine%20Learning%20Results/ivs_ros.jpg)
+
+    - Oversampling: SMOTE <br>
+    ![Interventional - SMOTE](Images/Machine%20Learning%20Results/ivs_smote.jpg)
+
+    - Undersampling: Cluster Centroid <br>
+    ![Interventional - Cluster Centroie](Images/Machine%20Learning%20Results/ivs_cluster.jpg)
+
+    - Combination: SMOTEENN <br>
+    ![Interventional - SMOTEENN](Images/Machine%20Learning%20Results/ivs_smoteenn.jpg)
 
 ### Free Text Analysis - Natural Language Processing
 (Text and images here!) - Alejandra
