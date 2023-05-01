@@ -23,9 +23,9 @@ While the purview of this project is restricted to clinical trials of breast can
 
 &#9989; Description of data exploration phase<br>
 #### 1. Extract, Transfer, Load and Clean the data <br> 
-(Please feel free to edit this Gahyun and Annekah)
 
-*Progress Status*: All data was extracted from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home), cleaned and loaded into 5 [tables](https://github.com/AnneLonero/Clinical_Trials_Research_Project/tree/main/Tables).
+*Progress Status*: All data was extracted from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home), cleaned and loaded into 5 [tables](https://github.com/AnneLonero/Clinical_Trials_Research_Project/tree/main/Tables).<br>
+
 Data extracted as json files from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home) were converted into multiple DataFrames for data cleaning. 
 ![Pre-cleaned dataframe](Images/pre_cleaned_data.jpg)<br>
 As shown above, all values in DataFrames were enclosed by ```[]``` brackets, which needed to be removed for data processing. All dataframes' values were first converted to string, then each values were run through ```for``` loops to remove the brackets through regular expression. All columns were then renamed. 
@@ -50,7 +50,7 @@ The database was built in Postgre pgAdmin using 5 separate tables and used `ID` 
 * Supervised Learning Models were built for both Observation and Interventional studies to explore and evaluate the potential features for our model. 
 * Machine learning models were performed for each study types since each had different set of contributing characteristics that needed to be examined more closely. 
 * `Status` column would be the target. The `Unknown Status` was dropped since it did't serve any purpose for our analysis. All other studies status were separated into 2 buckets. `High_chance` includes `Completed, Recruiting, Enrolling by invitation`, and `low_chance` includes `Withdrawn, Terminated, Suspendended, Not yet recruiting, and Active, not Recruiting`.
-* All models were built using `RandomForestClassifer`,`BalancedRandomForest`, an `LogisticRegression` and later resampled using `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling - SMOTEENN`.
+* All models were built using `RandomForestClassifer`,`BalancedRandomForest`, an `LogisticRegression` models and later resampled using 4 methods: `NaiveRandomSampling`, `SMOTE`, `UnderSampling`, and `Combination(OverandUnder)Sampling - SMOTEENN`.
 
 #### 4. Display Analysis Results and Findings using Tableau
 A large number of visualizations were able to be made from our different CSV files that we created. 
@@ -101,29 +101,31 @@ We were able to look at:
 
 ### Observational and Interventional Studies - Supervised Learning Model
 
+Out of 3 models tested, `BalancedRandomForest` shows the best performance with the balanced accuracy of 59%. Using this model to resample with 4 resampling methods; however, none of the methods produce a better result.
+
 * Random Forest Classifier<br>
-![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_random_forest.png)
-![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_features_importance.png)<br><br>
+![Ivs/Obs - Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_forest.png)
+![Ivs/Obs - Random Forest](Images/Machine%20Learning%20Results/ivs_obs_features_importance.png)<br><br>
 
 * Banlanced Random Forest Classifier<br>
-![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_balanced_random_forest.png)<br><br>
+![Ivs/Obs - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_balanced_random_forest.png)<br><br>
 
 * Logistic Regression Model <br>
-![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_lr.png)
+![Ivs/Obs - Logistic Regression](Images/Machine%20Learning%20Results/ivs_obs_lr.png)
 <br><br>
 
 * Re-Sampling<br>
     - Oversampling: Random Over Sampling <br>
-    ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_random_oversampling.png)
+    ![Ivs/Obs - ROS](Images/Machine%20Learning%20Results/ivs_obs_random_oversampling.png)
 
     - Oversampling: SMOTE <br>
-    ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_SMOTE.png)
+    ![Ivs/Obs - SMOTE](Images/Machine%20Learning%20Results/ivs_obs_SMOTE.png)
 
     - Undersampling: Cluster Centroid <br>
-    ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_undersampling.png)
+    ![Ivs/Obs - Cluster Centroid](Images/Machine%20Learning%20Results/ivs_obs_undersampling.png)
 
     - Combination: SMOTEENN <br>
-    ![Ivs/Obsl](Images/Machine%20Learning%20Results/ivs_obs_SMOTEENN.png)
+    ![Ivs/Obsl - SMOTEENN](Images/Machine%20Learning%20Results/ivs_obs_SMOTEENN.png)
 
 
 ### Observational Studies ONLY - Supervised Learning Model
@@ -152,7 +154,7 @@ Multiple learning machine models (Random Forest, Balanced Random Forest, and Log
     ![Observational - SMOTE](Images/Machine%20Learning%20Results/obs_smote.jpg)
 
     - Undersampling: Cluster Centroid <br>
-    ![Observational - Cluster Centroie](Images/Machine%20Learning%20Results/obs_cluster.jpg)
+    ![Observational - Cluster Centroid](Images/Machine%20Learning%20Results/obs_cluster.jpg)
 
     - Combination: SMOTEENN <br>
     ![Observational - SMOTEENN](Images/Machine%20Learning%20Results/obs_smoteenn.jpg)
