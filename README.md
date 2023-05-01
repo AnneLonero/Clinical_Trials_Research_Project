@@ -116,6 +116,9 @@ We were able to look at:
     - Oversampling: Random Over Sampling <br>
     ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_random_oversampling.png)
 
+    - Oversampling: SMOTE <br>
+    ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_SMOTE.png)
+
     - Undersampling: Cluster Centroid <br>
     ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_undersampling.png)
 
