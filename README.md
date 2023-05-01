@@ -73,6 +73,9 @@ The database was built in Postgre pgAdmin using 5 separated tables, and used `ID
     - Oversampling: Random Over Sampling <br>
     ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_random_oversampling.png)
 
+    - Oversampling: SMOTE <br>
+    ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_SMOTE.png)
+
     - Undersampling: Cluster Centroid <br>
     ![Ivs/Obs](Images/Machine%20Learning%20Results/ivs_obs_undersampling.png)
 
