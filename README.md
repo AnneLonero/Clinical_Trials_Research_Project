@@ -73,30 +73,30 @@ We were able to look at:
 [Tableau Dashboard](https://public.tableau.com/app/profile/annekah.jones/viz/Story1Demo/ClinicalTrialsDahsboard?publish=yes)
 
 ![Actual_Duration](Images/Tableau%20Visualizations/Actual%20Duration.png)
-Most of the clinical trials lasted 0-15 years.
+* Most of the clinical trials lasted 0-15 years.
 
 ![Arm_Group_Intervention_Type](Images/Tableau%20Visualizations/Arm%20Group%20and%20Intervention%20Type.png)
-The combination of the Experimental Arm Group Type and Drug Intervention Type was the most popular among the intervention clinical trials. 
+* The combination of the Experimental Arm Group Type and Drug Intervention Type was the most popular among the intervention clinical trials. 
 
 ![Enrollment_Count](Images/Tableau%20Visualizations/Enrollment%20Count.png)
-Most of the clinical trials had under 10,000 people enrolled. 
+* Most of the clinical trials had under 10,000 people enrolled. 
 
 ![Int_Obs_Methods](Images/Tableau%20Visualizations/Interventional%20and%20Observational%20Study%20Methods.png)
-For the Interventional Studies, Parallel Assignment and Single Group Assignment were the two most popular study models used amongst the clinical trials.
-For the Observation Studies, ignoring the null responses, Cohort and Case-Only were the two most popular study models amongst the clinical trials. 
+* For the Interventional Studies, Parallel Assignment and Single Group Assignment were the two most popular study models used amongst the clinical trials.
+* For the Observation Studies, ignoring the null responses, Cohort and Case-Only were the two most popular study models amongst the clinical trials. 
 
 ![Minimum_Age](Images/Tableau%20Visualizations/Minimum%20Age.png)
-18 was the most common minimum age for the clinical trials, but they ranged from 0 to 70.
+* 18 was the most common minimum age for the clinical trials, but they ranged from 0 to 70.
 
 ![Pie_Charts](Images/Tableau%20Visualizations/Pie%20Charts.png)
-For gender eligibility, most of the trials were female only.
-Observational Studies had the most enrollment at 22,867,279 participants.
-Most of the observational studies did not accept participants that did not have a disease or condition.
+* For gender eligibility, most of the trials were female only.
+* Observational Studies had the most enrollment at 22,867,279 participants.
+* Most of the observational studies did not accept participants that did not have a disease or condition.
 
 ![Status](Images/Tableau%20Visualizations/Status%20by%20Phase%20and%20Study%20Type.png)
-For Interventional Studies, most of the trials were recruiting.
-For Observational Studies, most of the trials were recruiting.
-For all phases, the majority of the trials were recruiting. 
+* For Interventional Studies, most of the trials were recruiting.
+* For Observational Studies, most of the trials were recruiting.
+* For all phases, the majority of the trials were recruiting. 
 
 
 ### Observational and Interventional Studies - Supervised Learning Model
