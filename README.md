@@ -105,7 +105,7 @@ Out of 3 models tested, `BalancedRandomForest` shows the best performance with t
 
 * Random Forest Classifier<br>
 ![Ivs/Obs - Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_forest.png)
-![Ivs/Obs - Random Forest](Images/Machine%20Learning%20Results/ivs_obs_features_importance.png)<br><br>
+![Ivs/Obs - Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_forest_important_plot.png)<br><br>
 
 * Banlanced Random Forest Classifier<br>
 ![Ivs/Obs - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_balanced_random_forest.png)<br><br>
