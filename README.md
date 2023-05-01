@@ -72,7 +72,7 @@ We were able to look at:
 ### Tableau Analysis
 [Tableau Dashboard](https://public.tableau.com/app/profile/annekah.jones/viz/Story1Demo/ClinicalTrialsDahsboard?publish=yes)
 
-[Actual Duration](Images/Tableau%20Visualizations/Actual%20Duration)
+![Actual_Duration](Images/Tableau%20Visualizations/Actual%20Duration.png)
 
 ### Observational and Interventional Studies - Supervised Learning Model
 
