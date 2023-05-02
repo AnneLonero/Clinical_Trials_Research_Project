@@ -2,26 +2,22 @@
 Final presentation [slides](https://docs.google.com/presentation/d/1lqZRqodDXuWUfGOOcxFQ3LZMxaT_q8dKbH6Szs1XJTg/edit?usp=sharing) and [outline.](https://docs.google.com/document/d/1fG2xKclSK5bxebnn9twx8O1A0DVZieMg3yY4XZjaa1E/edit?usp=sharing)
 ## Topic Overview
 
-&#9989; Topic and Reasoning<br>
 The aim of the project is to help cancer patients comprehend the clinical research landscape in order to understand the full breadth of their treatment options. This project builds off of existing [research on clinical trials](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6092479/) to discern the factors that make clinical trials successful or not. The project also leverages machine learning to find patterns across the data and predict the status/outcome of a trial.<br>
 
-&#9989; Questions aimed to answer <br>
 Here are some questions that the project would aim to answer:
-* What factors influence the likelihood of success? Are there measurable degrees of achievement?
+* What factors influence the likelihood of success? 
 * Would one type of trials be more successful than others?
 * Is trial length associated with success?
-* Would the number of paricipants affect the likelihood of success?
+* Would the number of participants affect the likelihood of success?
 * Are certain trial phases associated with make-or-break points?
 * What are the most commnon reasons that made the trial stop?
 
-&#9989; Description of data source<br>
 The data for this project was obtained through API from the database of privately and publicly funded [clinical studies](https://clinicaltrials.gov/) provided by the U.S. National Library of Medicine. For the purpose of our research, the data was limited to "Breast Cancer" and date range of 2018 and after (due to some report regulations changed).
 
 While the purview of this project is restricted to clinical trials of breast cancer, this project can potentially serve as a springboard for a consulting services for patients and clinical research coordinators in the future. By providing primary stakeholders with data-driven insights into the clinical trial process, this project can enable researchers to maximize the likelihood of success, and empower patients to make the most educated decisions about their health.
 
 ## Research Outline
 
-&#9989; Description of data exploration phase<br>
 #### 1. Extract, Transfer, Load and Clean the data <br> 
 
 *Progress Status*: All data was extracted from [clinicaltrials.gov API](https://clinicaltrials.gov/api/gui/home), cleaned and loaded into 5 [tables](https://github.com/AnneLonero/Clinical_Trials_Research_Project/tree/main/Tables).<br>
@@ -42,9 +38,7 @@ The database was built in Postgre pgAdmin using 5 separate tables and used `ID` 
 
 ![field_tables](Database/QuickDBD-schema.png)<br>
 
-&#9989; Description of data analysis phase<br>
-
-### Unsupervised Learning 
+#### 3. Unsupervised Machine Learning 
 For the analysis of the free text response we used Natural Language Processing(NLP) which is a type of unsupervised learning for textual data. We used an algorithm called Latent Dirichlet Association - or LDA for short. This is a type of topic modeling that characterizes the rates at which words appear when discussing a particular topic. Essentially it finds patterns within the data itself, This analysis was conducted on the free text responses of the WhyStopped column.
 
     LDA processing steps:
@@ -61,15 +55,12 @@ For the analysis of the free text response we used Natural Language Processing(N
 ![LDA visualization](Images/LDAvis.gif) 
     
 
-
-#### Supervised Learning 
+#### 4. Supervised Machine Learning 
 For the analysis of the categorical data we used a variety of supervised learning models to test which model had the highest accuracy. Due to the different characteristics of observational and interventional studies, the data was segmented by study type. 
 Interventional studies are a type of clinical study in which participants are assigned to groups that receive one or more intervention/treatment, this is to evaluate biomedical or health-related outcomes.
 
 In observational studies participants’ health outcomes are assessed but the investigator does not assign participants to a specific intervention or treatment.
 
-&#9989; Technologies used<br>
-*Progress Status*: 3 Supervised Learning Models were built and Optimized for Observational and Interventional Studies, Observational studies ONLY, and Interventional studies ONLY
 * There are two main study types - Observational and Interventional. 
 * Supervised Learning Models were built for both Observation and Interventional studies to explore and evaluate the potential features for our model. 
 * Machine learning models were performed for each study types since each had different set of contributing characteristics that needed to be examined more closely. 
@@ -90,8 +81,6 @@ We were able to look at:
 * whether or not they accepted people who did not have a disease or condition to participate in the observation study. 
 
 ## Results
-
-&#9989; Results of analysis
 
 ### Tableau Analysis
 [Tableau Dashboard](https://public.tableau.com/app/profile/annekah.jones/viz/Story1Demo/ClinicalTrialsDahsboard?publish=yes)
@@ -130,7 +119,7 @@ We were able to look at:
 
 ### Observational and Interventional Studies - Supervised Learning Model
 
-Out of 3 models tested, `BalancedRandomForest` shows the best performance with the balanced accuracy of 59%. Using this model to resample with 4 resampling methods; however, none of the methods produce a better result.
+Out of 3 models tested, `LogisticRegression` shows the best performance with the accuracy of 69%. Using this model to resample with 4 resampling methods; we found that SMOTEENN yeild a slightly better result of 71% accuracy.
 
 * Random Forest Classifier<br>
 ![Ivs/Obs - Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_forest.png)
@@ -213,7 +202,7 @@ Machine learning on interventional studies resulted in much lower accuracy than 
     ![Interventional - SMOTE](Images/Machine%20Learning%20Results/ivs_smote.jpg)
 
     - Undersampling: Cluster Centroid <br>
-    ![Interventional - Cluster Centroie](Images/Machine%20Learning%20Results/ivs_cluster.jpg)
+    ![Interventional - Cluster Centroid](Images/Machine%20Learning%20Results/ivs_cluster.jpg)
 
     - Combination: SMOTEENN <br>
     ![Interventional - SMOTEENN](Images/Machine%20Learning%20Results/ivs_smoteenn.jpg)
@@ -223,10 +212,16 @@ Machine learning on interventional studies resulted in much lower accuracy than 
 
 ## Reflection
 
+* Neither being Interventional nor Observational study type would determine if the trials would have a higher chance of being completed, since their weight of importance are only 0.0038 and 0.0037 respectively.
+* Across all Supervise Machine Learning Models, we found that the duration of the study and the numbers of enrollments are by far the leading factors to determine if the trials would have a higher chance of being completed.
+* We know the longer the trial lasts, the higher chance it would be completed. But again, it will not be the only determined factor, since the bulk of both completed trials and suspended, terminated trials duration are average around 5 years. And there are trials that lasted over 10 years still being suspended or withdrawn.
+* Things to consider: the number of observational trials is only 22% of the total examined trials. Yet the enrollment for observational trials is 92.4% of the total participants.
+We know that the Suspended, Terminated and Withdrawn trials have significantly lower participants which directly correlated to their status. On the other hand, the active currently recruiting trials would have more participants and have a higher chance of being completed.
+
 &#9989; Recommendations for future analysis
 
 &#9989; Anything the team would have done differently
-
+We could have taken out the outliers in Enrollment Count and Duration to train the models more efficiently (ie: duration 50 years, and enrollment count of 10000000)
 
 
 
