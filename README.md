@@ -1,5 +1,5 @@
 ## Clinical Breast Cancer Research Trial 
-
+Final presentation [slides](https://docs.google.com/presentation/d/1lqZRqodDXuWUfGOOcxFQ3LZMxaT_q8dKbH6Szs1XJTg/edit?usp=sharing) and [outline.](https://docs.google.com/document/d/1fG2xKclSK5bxebnn9twx8O1A0DVZieMg3yY4XZjaa1E/edit?usp=sharing)
 ## Topic Overview
 
 &#9989; Topic and Reasoning<br>
@@ -57,6 +57,8 @@ For the analysis of the free text response we used Natural Language Processing(N
     7. Convert corpus into document-term-matrix
     8. Run and train LDA model on document-term-matrix using Gensim library
     9. Create Interoptic Distance Map and Top-30 Most Relevant Terms for Topics
+ 
+![LDA visualization](Images/LDAvis.gif) 
     
 
 
