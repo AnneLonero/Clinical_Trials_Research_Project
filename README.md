@@ -120,6 +120,11 @@ We were able to look at:
 * For Observational Studies, most of the trials were recruiting.
 * For all phases, the majority of the trials were recruiting. 
 
+![Enrollment_Actual_Duration](Images/Tableau%20Visualizations/Enrollment%20vs%20Actual%20Duration.png)
+* We are able to see the relationship between enrollment type and actual duration.
+
+![Enrollment_Status](Images/Tableau%20Visualizations/Enrollment%20vs%20Status.png)
+* We can see that there is the highest level of enrollment in clinical trials that have recruiting status.
 
 ### Observational and Interventional Studies - Supervised Learning Model
 
