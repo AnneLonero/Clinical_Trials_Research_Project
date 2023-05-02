@@ -43,7 +43,29 @@ The database was built in Postgre pgAdmin using 5 separate tables and used `ID` 
 ![field_tables](Database/QuickDBD-schema.png)<br>
 
 &#9989; Description of data analysis phase<br>
-#### 3. Supervised Machine Learning Model
+
+### Unsupervised Learning 
+For the analysis of the free text response we used Natural Language Processing(NLP) which is a type of unsupervised learning for textual data. We used an algorithm called Latent Dirichlet Association - or LDA for short. This is a type of topic modeling that characterizes the rates at which words appear when discussing a particular topic. Essentially it finds patterns within the data itself, This analysis was conducted on the free text responses of the WhyStopped column.
+
+    LDA processing steps:
+    1. Lowercase responses
+    2. Remove punctuation
+    3. Remove stopwords
+    4. Filter out top three most frequent words ('study', 'due', 'decision')
+    5. Tokenize filtered responses (sentences-to-words)
+    6. Create term dictionary of corpus
+    7. Convert corpus into document-term-matrix
+    8. Run and train LDA model on document-term-matrix using Gensim library
+    9. Create Interoptic Distance Map and Top-30 Most Relevant Terms for Topics
+    
+
+
+#### Supervised Learning 
+For the analysis of the categorical data we used a variety of supervised learning models to test which model had the highest accuracy. Due to the different characteristics of observational and interventional studies, the data was segmented by study type. 
+Interventional studies are a type of clinical study in which participants are assigned to groups that receive one or more intervention/treatment, this is to evaluate biomedical or health-related outcomes.
+
+In observational studies participants’ health outcomes are assessed but the investigator does not assign participants to a specific intervention or treatment.
+
 &#9989; Technologies used<br>
 *Progress Status*: 3 Supervised Learning Models were built and Optimized for Observational and Interventional Studies, Observational studies ONLY, and Interventional studies ONLY
 * There are two main study types - Observational and Interventional. 
@@ -105,7 +127,7 @@ Out of 3 models tested, `BalancedRandomForest` shows the best performance with t
 
 * Random Forest Classifier<br>
 ![Ivs/Obs - Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_forest.png)
-![Ivs/Obs - Random Forest](Images/Machine%20Learning%20Results/ivs_obs_random_forest_important_plot.png)<br><br>
+![Ivs/Obs - Random Forest](Images/Machine%20Learning%20Results/ivs_obs_features_importance.png)<br><br>
 
 * Banlanced Random Forest Classifier<br>
 ![Ivs/Obs - Balanced Random Forest](Images/Machine%20Learning%20Results/ivs_obs_balanced_random_forest.png)<br><br>
@@ -189,8 +211,8 @@ Machine learning on interventional studies resulted in much lower accuracy than 
     - Combination: SMOTEENN <br>
     ![Interventional - SMOTEENN](Images/Machine%20Learning%20Results/ivs_smoteenn.jpg)
 
-### Free Text Analysis - Natural Language Processing
-(Text and images here!) - Alejandra
+
+
 
 ## Reflection
 
