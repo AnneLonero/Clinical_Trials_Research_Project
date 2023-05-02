@@ -124,7 +124,7 @@ We were able to look at:
 * We are able to see the relationship between enrollment type and actual duration.
 
 ![Enrollment_Status](Images/Tableau%20Visualizations/Enrollment%20vs%20Status.png)
-* We can see that there is the highest level of enrollment in clinical trials that have recruiting status.
+* We can see that most of the trials are in the recruiting phase, even though these trials don't have the highest levels of enrollment.
 
 ### Observational and Interventional Studies - Supervised Learning Model
 
