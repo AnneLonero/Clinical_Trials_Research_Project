@@ -123,7 +123,7 @@ We were able to look at:
 ![Enrollment_Actual_Duration](Images/Tableau%20Visualizations/Enrollment%20vs%20Actual%20Duration.png)
 * We are able to see the relationship between enrollment type and actual duration.
 
-![Enrollment_Status](Images/Tableau%20Visualizations/Enrollment%20vs%20Status.png)
+![Enrollment_Status](Images/Tableau%20Visualizations/Enrollment%20v%20Status.png)
 * We can see that most of the trials are in the recruiting phase, even though these trials don't have the highest levels of enrollment.
 
 ### Observational and Interventional Studies - Supervised Learning Model
