@@ -45,6 +45,7 @@ CREATE TABLE Study_Method (
 
 CREATE TABLE Text_Analysis (
 	"ID" VARCHAR,
+	Why_Stopped VARCHAR,
 	Enrollment_Count VARCHAR,
 	Primary_OutCome_Measure VARCHAR,
 	PRIMARY KEY ("ID"),
