@@ -216,6 +216,7 @@ Machine learning on interventional studies resulted in much lower accuracy than 
 * We cannot safely assume that the longer the trial, the more likely it will be completed. Trial duration alone would not be a determined factor, since the bulk of both completed trials and suspended, terminated trials duration are average around 5 years. And there are trials that lasted over 10 years still being suspended or withdrawn.
 * Things to consider: the number of observational trials is only 22% of the total examined trials. Yet the enrollment for observational trials is 92.4% of the total participants.
 * We know that the Suspended, Terminated and Withdrawn trials have significantly lower participants which directly correlated to their status. On the other hand, the active currently recruiting trials would have more participants and have a higher chance of being completed.
+* Through Unsupervised Machine Learning - Natural Language Processing, we found that the three most popular reasons are Funding, Enrollment and Sponsor.
 
 &#9989; Recommendations for future analysis<br>
 Expand our analysis to study other factors, ie: Responsible Party, FDA Regulated, etc.
