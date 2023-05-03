@@ -5,11 +5,10 @@ Final presentation [slides](https://docs.google.com/presentation/d/1lqZRqodDXuWU
 The aim of the project is to help cancer patients comprehend the clinical research landscape in order to understand the full breadth of their treatment options. This project builds off of existing [research on clinical trials](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6092479/) to discern the factors that make clinical trials successful or not. The project also leverages machine learning to find patterns across the data and predict the status/outcome of a trial.<br>
 
 Here are some questions that the project would aim to answer:
-* What factors influence the likelihood of success? 
-* Would one type of trials be more successful than others?
-* Is trial length associated with success?
-* Would the number of participants affect the likelihood of success?
-* Are certain trial phases associated with make-or-break points?
+* What factors influence the likelihood of completion? 
+* Would one type of trials be more likely to completed than others?
+* Is trial length associated with completion?
+* Would the number of participants affect the likelihood of completion?
 * What are the most commnon reasons that made the trial stop?
 
 The data for this project was obtained through API from the database of privately and publicly funded [clinical studies](https://clinicaltrials.gov/) provided by the U.S. National Library of Medicine. For the purpose of our research, the data was limited to "Breast Cancer" and date range of 2018 and after (due to some report regulations changed).
@@ -214,7 +213,7 @@ Machine learning on interventional studies resulted in much lower accuracy than 
 
 * Neither being Interventional nor Observational study type would determine if the trials would have a higher chance of being completed, since their weight of importance are only 0.0038 and 0.0037 respectively.
 * Across all Supervise Machine Learning Models, we found that the duration of the study and the numbers of enrollments are by far the leading factors to determine if the trials would have a higher chance of being completed.
-* We know the longer the trial lasts, the higher chance it would be completed. But again, it will not be the only determined factor, since the bulk of both completed trials and suspended, terminated trials duration are average around 5 years. And there are trials that lasted over 10 years still being suspended or withdrawn.
+* We cannot safely assume that the longer the trial, the more likely it will be completed. Trial duration alone would not be a determined factor, since the bulk of both completed trials and suspended, terminated trials duration are average around 5 years. And there are trials that lasted over 10 years still being suspended or withdrawn.
 * Things to consider: the number of observational trials is only 22% of the total examined trials. Yet the enrollment for observational trials is 92.4% of the total participants.
 * We know that the Suspended, Terminated and Withdrawn trials have significantly lower participants which directly correlated to their status. On the other hand, the active currently recruiting trials would have more participants and have a higher chance of being completed.
 
