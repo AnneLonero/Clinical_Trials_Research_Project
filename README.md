@@ -216,11 +216,13 @@ Machine learning on interventional studies resulted in much lower accuracy than 
 * Across all Supervise Machine Learning Models, we found that the duration of the study and the numbers of enrollments are by far the leading factors to determine if the trials would have a higher chance of being completed.
 * We know the longer the trial lasts, the higher chance it would be completed. But again, it will not be the only determined factor, since the bulk of both completed trials and suspended, terminated trials duration are average around 5 years. And there are trials that lasted over 10 years still being suspended or withdrawn.
 * Things to consider: the number of observational trials is only 22% of the total examined trials. Yet the enrollment for observational trials is 92.4% of the total participants.
-We know that the Suspended, Terminated and Withdrawn trials have significantly lower participants which directly correlated to their status. On the other hand, the active currently recruiting trials would have more participants and have a higher chance of being completed.
+* We know that the Suspended, Terminated and Withdrawn trials have significantly lower participants which directly correlated to their status. On the other hand, the active currently recruiting trials would have more participants and have a higher chance of being completed.
 
-&#9989; Recommendations for future analysis
+&#9989; Recommendations for future analysis<br>
+Expand our analysis to study other factors, ie: Responsible Party, FDA Regulated, etc.
+Consider include more free text factors since there are plenty of data in these categories that we can potentially use Unsupervised Machine Learning -NLP to study, ie: Primary Outcomes Measures, etc. 
 
-&#9989; Anything the team would have done differently
+&#9989; Anything the team would have done differently<br>
 We could have taken out the outliers in Enrollment Count and Duration to train the models more efficiently (ie: duration 50 years, and enrollment count of 10000000)
 
 
