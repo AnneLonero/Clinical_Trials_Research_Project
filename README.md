@@ -227,11 +227,10 @@ Machine learning on interventional studies resulted in much lower accuracy than 
 * We know that the Suspended, Terminated and Withdrawn trials have significantly lower participants which directly correlated to their status. On the other hand, the active currently recruiting trials would have more participants and have a higher chance of being completed.
 * Through Unsupervised Machine Learning - Natural Language Processing, we found that the three most popular reasons are Funding, Enrollment and Sponsor.
 
-&#9989; Recommendations for future analysis<br>
-While the purview of this project is restricted to clinical trials about breast cancer, this project can potentially serve as a springboard for a consulting service for patients and coordinators interested in clinical trials for other conditions. By providing primary stakeholders with data-driven insights into the clinical trial process, this project can enable researchers to maximize the likelihood of success, and empower patients to make informed decisions about their health.
+<br>
+While the purview of this project is restricted to clinical trials about breast cancer, this project can potentially serve as a springboard for a consulting service for patients and coordinators interested in clinical trials for other conditions. By providing primary stakeholders with data-driven insights into the clinical trial process, this project can enable researchers to maximize the likelihood of success, and empower patients to make informed decisions about their health.<br>
 
-
-&#9989; Anything the team would have done differently<br>
+<br>
 If we had more time we would have tried to further optimize our model by doing more specific preprocessing like minimizing the impact of outliers in the data, and expand our analysis to study other factors, ie: Responsible Party, FDA Regulated, etc. We could have taken out the outliers in Enrollment Count and Duration to train the models more efficiently (ie: duration 50 years, and enrollment count of 10000000.)
 And we would have liked to find ways to leverage text analysis further, and directly bridge our unsupervised and supervised learning results. Consider include more free text factors since there are plenty of data in these categories that we can potentially use Unsupervised Machine Learning -NLP to study, ie: Primary Outcomes Measures, etc. 
 
