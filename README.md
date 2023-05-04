@@ -2,9 +2,10 @@
 Final presentation [slides](https://docs.google.com/presentation/d/1lqZRqodDXuWUfGOOcxFQ3LZMxaT_q8dKbH6Szs1XJTg/edit?usp=sharing) and [outline.](https://docs.google.com/document/d/1fG2xKclSK5bxebnn9twx8O1A0DVZieMg3yY4XZjaa1E/edit?usp=sharing)
 ## Topic Overview
 
+Clinical trials are the primary vehicle for medical innovation, they test the safety and benefits of new treatments, diagnostic tools, and study risk reduction. The outcome of these trials is basically how the standard of care for breast cancer patients advances.
 The aim of the project is to help cancer patients comprehend the clinical research landscape in order to understand the full breadth of their treatment options. This project builds off of existing [research on clinical trials](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6092479/) to discern the factors that make clinical trials successful or not. The project also leverages machine learning to find patterns across the data and predict the status/outcome of a trial.<br>
 
-Here are some questions that the project would aim to answer:
+The primary question was, 'what makes clinical trials successful?' Here are some more granular questions that the project would aim to answer:
 * What factors influence the likelihood of completion? 
 * Would one type of trials be more likely to completed than others?
 * Is trial length associated with completion?
@@ -38,7 +39,7 @@ The database was built in Postgre pgAdmin using 5 separate tables and used `ID` 
 ![field_tables](Database/QuickDBD-schema.png)<br>
 
 #### 3. Unsupervised Machine Learning 
-For the analysis of the free text response we used Natural Language Processing(NLP) which is a type of unsupervised learning for textual data. We used an algorithm called Latent Dirichlet Association - or LDA for short. This is a type of topic modeling that characterizes the rates at which words appear when discussing a particular topic. Essentially it finds patterns within the data itself, This analysis was conducted on the free text responses of the WhyStopped column.
+For the analysis of the free text response we used Natural Language Processing(NLP) which is a type of unsupervised learning for textual data because we had a free text variable that did not lend itself to supervised learning with categorical variables. This analysis was conducted on the free text responses of the WhyStopped column. The Why Study Stopped column was a free text response field that provides a brief explanation of the reasons why a particular study was stopped. When preprocesing the data for the model we had to do the following:
 
     LDA processing steps:
     1. Lowercase responses
@@ -50,9 +51,17 @@ For the analysis of the free text response we used Natural Language Processing(N
     7. Convert corpus into document-term-matrix
     8. Run and train LDA model on document-term-matrix using Gensim library
     9. Create Interoptic Distance Map and Top-30 Most Relevant Terms for Topics
+    
+We used an algorithm called Latent Dirichlet Association(LDA). This is a type of topic modeling that characterizes the rates at which words appear when discussing a particular topic.     
  
 ![LDA visualization](Images/LDAvis.gif) 
     
+On the left is an Interoptic Distance Map - each bubble represents a topic, the size of the bubble reflects relevance, and the further away they are the more different they are. As you can see the model found three pretty distinct topics: ‘funding’, ‘enrollment’, and ‘sponsor.’ On the right are the most frequent words. The blue bar represents overall word frequency and the red bar represents that words frequency within the topic. 
+Based on these results we can see that when sponsors decide to terminate a trial, which is about a third of the time, they tend to emphasize that it is not because of safety and is more often a business decision. Funding and recruitment issues were already prevalent but exacerbated by COVID. And the participant enrollment stage is a make-or-break point for a trial.
+
+This gave us more insight into studies that *failed*. For the next phase of the analysis we used supervised learning to explore why trials *succeed*, by building a model to predict the outcome of a trial.
+
+
 
 #### 4. Supervised Machine Learning 
 For the analysis of the categorical data we used a variety of supervised learning models to test which model had the highest accuracy. Due to the different characteristics of observational and interventional studies, the data was segmented by study type. 
@@ -219,11 +228,16 @@ Machine learning on interventional studies resulted in much lower accuracy than 
 * Through Unsupervised Machine Learning - Natural Language Processing, we found that the three most popular reasons are Funding, Enrollment and Sponsor.
 
 &#9989; Recommendations for future analysis<br>
-Expand our analysis to study other factors, ie: Responsible Party, FDA Regulated, etc.
-Consider include more free text factors since there are plenty of data in these categories that we can potentially use Unsupervised Machine Learning -NLP to study, ie: Primary Outcomes Measures, etc. 
+While the purview of this project is restricted to clinical trials about breast cancer, this project can potentially serve as a springboard for a consulting service for patients and coordinators interested in clinical trials for other conditions. By providing primary stakeholders with data-driven insights into the clinical trial process, this project can enable researchers to maximize the likelihood of success, and empower patients to make informed decisions about their health.
+
 
 &#9989; Anything the team would have done differently<br>
-We could have taken out the outliers in Enrollment Count and Duration to train the models more efficiently (ie: duration 50 years, and enrollment count of 10000000)
+If we had more time we would have tried to further optimize our model by doing more specific preprocessing like minimizing the impact of outliers in the data, and expand our analysis to study other factors, ie: Responsible Party, FDA Regulated, etc. We could have taken out the outliers in Enrollment Count and Duration to train the models more efficiently (ie: duration 50 years, and enrollment count of 10000000.)
+And we would have liked to find ways to leverage text analysis further, and directly bridge our unsupervised and supervised learning results. Consider include more free text factors since there are plenty of data in these categories that we can potentially use Unsupervised Machine Learning -NLP to study, ie: Primary Outcomes Measures, etc. 
+
+
+
+
 
 
 
